@@ -590,6 +590,22 @@
     [
       "ff61dc2f-422b-49d1-8de0-47d1b664f1fb",
       "esp32"
+    ],
+    [
+      "7b0e6515-d50f-4bfe-893f-003a03c2261d",
+      "power"
+    ],
+    [
+      "8f472cc7-0cdc-4363-8965-a201b46c7d86",
+      "relay_driver"
+    ],
+    [
+      "ad7487dc-399a-47e5-adba-205f46c7c6b3",
+      "rtc"
+    ],
+    [
+      "2c575094-53d3-436a-a8a8-f9c08813a187",
+      "serial_spi_lcd"
     ]
   ],
   "text_variables": {}

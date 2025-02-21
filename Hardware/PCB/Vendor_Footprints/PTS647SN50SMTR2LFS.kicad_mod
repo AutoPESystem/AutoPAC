@@ -1,0 +1,234 @@
+(footprint "PTS647SN50SMTR2LFS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTS647SN50SMTR2LFS-2")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d78b1546-b575-412d-be0d-215def98b52c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PTS647SN50SMTR2LFS"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0ef0e20e-81ca-455e-b70c-a3e634554ebf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0285a65-7786-4b78-a962-f963a5b91f2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974141c9-b613-454a-8434-c50ab09ad0b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d1f3066-a21a-4fbb-bff9-1e260274226d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 0.5)
+		(end -2.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33dcb0ab-79ad-4111-835b-eb95398cb1b1")
+	)
+	(fp_line
+		(start -1.5 -2.25)
+		(end 1.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4333e68d-8bea-40f3-98b8-8d77ad289e3e")
+	)
+	(fp_line
+		(start -1.5 2.25)
+		(end 1.5 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11bff04c-c75d-4be3-a97d-9d8499b84c52")
+	)
+	(fp_line
+		(start 2.25 0.5)
+		(end 2.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a286898-9131-44f5-ada7-0c5f4e02c167")
+	)
+	(fp_line
+		(start -4.4 -3.25)
+		(end 4.4 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92b76bf8-1994-42d7-906a-ee6ed483bb01")
+	)
+	(fp_line
+		(start -4.4 3.25)
+		(end -4.4 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2b6dc28-b097-4ce9-b4d6-9aa1eac6f575")
+	)
+	(fp_line
+		(start 4.4 -3.25)
+		(end 4.4 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4681fe25-c619-47cf-a28e-dfbc61a135d2")
+	)
+	(fp_line
+		(start 4.4 3.25)
+		(end -4.4 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1de2c0d6-8acf-4299-8a5a-04b9dd685837")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd821ba8-757e-4d1c-80c9-7286e43d752b")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cbe1c53-0092-4b14-bcdb-1f99c3738032")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "944be43f-c36d-4680-8c00-c5e5e4e64156")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99d55ed2-7a9e-46ca-a0f6-800fdd0b4c3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc399a31-fa35-42d0-948b-1c7e7d7b185f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.625 1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6a34e75-8169-4186-b535-1ff4c6a3886e")
+	)
+	(pad "2" smd rect
+		(at 2.625 1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d2a6f7c-2a5f-48e7-b4ad-e9beea62c564")
+	)
+	(pad "3" smd rect
+		(at 2.625 -1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "81137890-20e5-4044-b859-f9a4bcba9749")
+	)
+	(pad "4" smd rect
+		(at -2.625 -1.6 90)
+		(size 1 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1eb7731-5721-4963-b60a-6a614bcfd1b7")
+	)
+	(model "${KIPRJMOD}/Vendor_3D_Models/PTS647SN50SMTR2LFS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 -90)
+		)
+	)
+)

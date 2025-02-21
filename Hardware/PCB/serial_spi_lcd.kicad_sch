@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dd9bb66c-e0dd-4085-84a4-a8bedfeeafc7")
+	(paper "A4")
+	(lib_symbols)
+	(text "240x320 Touch Screen 3.2\"TFT LCD Module Display Arduino Library\nER-TFTM032-3"
+		(exclude_from_sim no)
+		(at 50.546 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9d50ef9-fe45-4968-90df-86fdab20b38c")
+	)
+)

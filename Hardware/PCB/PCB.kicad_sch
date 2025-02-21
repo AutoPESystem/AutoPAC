@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 209.55 102.87)
-		(size 35.56 24.13)
+		(at 36.83 154.94)
+		(size 19.685 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -15,6 +15,44 @@
 		)
 		(fill
 			(color 0 0 0 0.0000)
+		)
+		(uuid "2c575094-53d3-436a-a8a8-f9c08813a187")
+		(property "Sheetname" "serial_spi_lcd"
+			(at 36.83 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial_spi_lcd.kicad_sch"
+			(at 36.83 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 102.87)
+		(size 26.67 29.845)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
 		)
 		(uuid "61701680-fda0-4967-8dfa-16cb06fdf2c2")
 		(property "Sheetname" "sensors"
@@ -27,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 209.55 127.5846 0)
+			(at 209.55 133.2996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,9 +74,85 @@
 			)
 		)
 		(instances
-			(project "PAC"
+			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 24.765)
+		(size 13.97 9.525)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 72 72 72 1.0000)
+		)
+		(uuid "7b0e6515-d50f-4bfe-893f-003a03c2261d")
+		(property "Sheetname" "power"
+			(at 38.1 24.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 38.1 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 34.29)
+		(size 24.765 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8f472cc7-0cdc-4363-8965-a201b46c7d86")
+		(property "Sheetname" "relay_driver"
+			(at 133.35 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_driver.kicad_sch"
+			(at 133.35 52.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "6")
 				)
 			)
 		)
@@ -52,7 +166,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "ac699c2b-014c-4302-987d-d1905114f179")
 		(property "Sheetname" "motor_driver"
@@ -74,7 +188,7 @@
 			)
 		)
 		(instances
-			(project "PAC"
+			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
 					(page "2")
 				)
@@ -82,15 +196,53 @@
 		)
 	)
 	(sheet
-		(at 91.44 57.15)
-		(size 26.67 26.67)
+		(at 28.575 89.535)
+		(size 19.05 18.415)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ad7487dc-399a-47e5-adba-205f46c7c6b3")
+		(property "Sheetname" "rtc"
+			(at 28.575 88.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rtc.kicad_sch"
+			(at 28.575 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 57.15)
+		(size 21.59 65.405)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
 		)
 		(uuid "ff61dc2f-422b-49d1-8de0-47d1b664f1fb")
 		(property "Sheetname" "esp32"
@@ -103,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 91.44 84.4046 0)
+			(at 91.44 123.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +264,7 @@
 			)
 		)
 		(instances
-			(project "PAC"
+			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
 					(page "4")
 				)
