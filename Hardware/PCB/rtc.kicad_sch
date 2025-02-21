@@ -2,8 +2,8 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "58294535-f2c7-45b8-be29-2d16a337f5e3")
-	(paper "A4")
+	(uuid "14f51b19-1a45-476b-8eeb-869b0e274bdb")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
@@ -823,24 +823,24 @@
 		)
 	)
 	(junction
-		(at 140.97 83.82)
+		(at 133.35 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b2736b9-02fc-4c4e-95e2-9e39aef9ce42")
 	)
 	(junction
-		(at 152.4 71.12)
+		(at 144.78 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c18d5caa-9372-4621-b1bc-e46b8b3f4f9a")
 	)
 	(no_connect
-		(at 142.24 107.95)
+		(at 134.62 68.58)
 		(uuid "3483abb1-14a7-4373-bd39-119c3c0cbc3e")
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 127 83.82)
+			(xy 95.25 44.45) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -850,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 152.4 71.12)
+			(xy 144.78 34.29) (xy 144.78 31.75)
 		)
 		(stroke
 			(width 0)
@@ -860,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 140.97 83.82)
+			(xy 144.78 44.45) (xy 133.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -870,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.82) (xy 140.97 78.74)
+			(xy 133.35 44.45) (xy 133.35 39.37)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +880,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 129.54 102.87)
+			(xy 121.92 44.45) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -890,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 152.4 83.82)
+			(xy 144.78 39.37) (xy 144.78 44.45)
 		)
 		(stroke
 			(width 0)
@@ -900,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 152.4 68.58)
+			(xy 144.78 31.75) (xy 144.78 29.21)
 		)
 		(stroke
 			(width 0)
@@ -910,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 87.63 83.82)
+			(xy 67.31 44.45) (xy 80.01 44.45)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 140.97 71.12)
+			(xy 144.78 31.75) (xy 133.35 31.75)
 		)
 		(stroke
 			(width 0)
@@ -930,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.82) (xy 129.54 83.82)
+			(xy 133.35 44.45) (xy 121.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -940,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 127 83.82)
+			(xy 119.38 63.5) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -950,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 140.97 73.66)
+			(xy 133.35 31.75) (xy 133.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 140.97 83.82)
+			(xy 133.35 48.26) (xy 133.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +970,7 @@
 	)
 	(hierarchical_label "{slash}RST"
 		(shape input)
-		(at 116.84 118.11 180)
+		(at 109.22 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -983,7 +983,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 116.84 107.95 180)
+		(at 109.22 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -996,7 +996,7 @@
 	)
 	(hierarchical_label "{slash}INT"
 		(shape input)
-		(at 142.24 115.57 0)
+		(at 134.62 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1009,7 +1009,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 116.84 110.49 180)
+		(at 109.22 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1022,7 +1022,7 @@
 	)
 	(symbol
 		(lib_id "Timer_RTC:DS3232M")
-		(at 129.54 113.03 0)
+		(at 121.92 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1031,7 +1031,7 @@
 		(fields_autoplaced yes)
 		(uuid "0246da4a-4bc8-49e8-8641-ce8e0566fa37")
 		(property "Reference" "U7"
-			(at 131.7341 123.19 0)
+			(at 124.1141 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 			)
 		)
 		(property "Value" "DS3232M"
-			(at 131.7341 125.73 0)
+			(at 124.1141 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 130.81 125.73 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3232M.pdf"
-			(at 136.398 109.22 0)
+			(at 128.778 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 			)
 		)
 		(property "Description" "Real Time Clock (RTC) IC Clock/Calendar 236B I2C, 2-Wire Serial 8-SOIC (0.154\", 3.90mm Width)"
-			(at 129.54 113.03 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 			)
 		)
 		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS3232MZ-TRL/3087654"
-			(at 129.54 113.03 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "MPN" "DS3232MZ+TRL"
-			(at 129.54 113.03 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
-			(at 129.54 113.03 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1137,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 123.19 0)
+		(at 121.92 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1146,7 +1146,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ad8a55d-af30-4931-9725-247d74e9bd44")
 		(property "Reference" "#PWR049"
-			(at 129.54 129.54 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 128.27 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 123.19 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 123.19 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 123.19 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1203,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 140.97 76.2 180)
+		(at 133.35 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1212,7 +1212,7 @@
 		(fields_autoplaced yes)
 		(uuid "358e33e4-a3dc-4e51-ae38-bd4dadce2314")
 		(property "Reference" "C21"
-			(at 138.43 77.4638 0)
+			(at 130.81 38.0938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 138.43 74.9238 0)
+			(at 130.81 35.5538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1230,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 140.97 76.2 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 76.2 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1248,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 140.97 76.2 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1257,7 @@
 			)
 		)
 		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"
-			(at 140.97 76.2 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1266,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KP8NNNC"
-			(at 140.97 76.2 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1275,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 140.97 76.2 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1300,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 152.4 76.2 0)
+		(at 144.78 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1309,7 +1309,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b97eff-0608-4fff-ae6c-481eb725de7d")
 		(property "Reference" "C22"
-			(at 154.94 74.9362 0)
+			(at 147.32 35.5662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1318,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 154.94 77.4762 0)
+			(at 147.32 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1327,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 152.4 76.2 0)
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 76.2 0)
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1345,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 152.4 76.2 0)
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "MPN" "GCM188R71H104KA57J"
-			(at 152.4 76.2 0)
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1379,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 140.97 87.63 180)
+		(at 133.35 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1388,7 +1388,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b30ef34-19ed-4f5f-a752-fbecdacac956")
 		(property "Reference" "#PWR050"
-			(at 140.97 83.82 0)
+			(at 133.35 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1397,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 140.97 92.71 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 87.63 0)
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 87.63 0)
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 140.97 87.63 0)
+			(at 133.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 83.82 270)
+		(at 67.31 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1454,7 +1454,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa38106c-8e6a-4f82-8621-5bbbaa4b1595")
 		(property "Reference" "#PWR048"
-			(at 68.58 83.82 0)
+			(at 60.96 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 83.8199 90)
+			(at 63.5 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 83.82 0)
+			(at 67.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 83.82 0)
+			(at 67.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 83.82 0)
+			(at 67.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 68.58 180)
+		(at 144.78 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1521,7 +1521,7 @@
 		(fields_autoplaced yes)
 		(uuid "b103824e-1c36-4d04-91de-40726da1637b")
 		(property "Reference" "#PWR051"
-			(at 152.4 62.23 0)
+			(at 144.78 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 63.5 0)
+			(at 144.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 68.58 0)
+			(at 144.78 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 68.58 0)
+			(at 144.78 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 68.58 0)
+			(at 144.78 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1578,7 @@
 	)
 	(symbol
 		(lib_id "Vendor_Symbols:1056")
-		(at 95.25 83.82 180)
+		(at 87.63 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1587,7 +1587,7 @@
 		(fields_autoplaced yes)
 		(uuid "e02abcad-ab65-4820-a7f6-4594979d100c")
 		(property "Reference" "BT1"
-			(at 95.885 76.2 0)
+			(at 88.265 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 			)
 		)
 		(property "Value" "1056"
-			(at 95.885 78.74 0)
+			(at 88.265 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" "Vendor_Footprints:BAT_1056"
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Description" "Battery Holder (Open) Coin, 12.5mm 1 Cell SMD (SMT) Tab"
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 			)
 		)
 		(property "MPN" "1056"
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1640,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1649,7 @@
 			)
 		)
 		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/keystone-electronics/1056/2020198"
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 			)
 		)
 		(property "Mouser Link" ""
-			(at 95.25 83.82 0)
+			(at 87.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
