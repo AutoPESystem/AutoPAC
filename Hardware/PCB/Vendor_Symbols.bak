@@ -7757,7 +7757,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB7"
 					(effects
 						(font
@@ -7775,7 +7775,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB8"
 					(effects
 						(font
@@ -7793,7 +7793,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB9"
 					(effects
 						(font
@@ -7811,7 +7811,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB10"
 					(effects
 						(font
@@ -7829,7 +7829,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB11"
 					(effects
 						(font
@@ -7847,7 +7847,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB12"
 					(effects
 						(font
@@ -7865,7 +7865,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB13"
 					(effects
 						(font
@@ -7883,7 +7883,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB14"
 					(effects
 						(font
@@ -7901,7 +7901,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB15"
 					(effects
 						(font
@@ -7919,7 +7919,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -7955,7 +7955,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -8135,7 +8135,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB0"
 					(effects
 						(font
@@ -8333,7 +8333,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB1"
 					(effects
 						(font
@@ -8369,7 +8369,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB2"
 					(effects
 						(font
@@ -8387,7 +8387,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB3"
 					(effects
 						(font
@@ -8405,7 +8405,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB4"
 					(effects
 						(font
@@ -8423,7 +8423,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB5"
 					(effects
 						(font
@@ -8441,7 +8441,7 @@
 			)
 			(pin no_connect line
 				(at 15.24 -21.59 180)
-				(length 2.54) hide
+				(length 2.54)
 				(name "DB6"
 					(effects
 						(font
