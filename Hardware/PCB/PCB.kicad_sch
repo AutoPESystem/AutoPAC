@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c3756407-a933-418d-a16a-ea4e5b091ef7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 209.55 102.87)
+		(size 35.56 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61701680-fda0-4967-8dfa-16cb06fdf2c2")
+		(property "Sheetname" "sensors"
+			(at 209.55 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 209.55 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PAC"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 57.15)
+		(size 24.13 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac699c2b-014c-4302-987d-d1905114f179")
+		(property "Sheetname" "motor_driver"
+			(at 224.79 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 224.79 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PAC"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 57.15)
+		(size 26.67 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff61dc2f-422b-49d1-8de0-47d1b664f1fb")
+		(property "Sheetname" "esp32"
+			(at 91.44 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 91.44 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PAC"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

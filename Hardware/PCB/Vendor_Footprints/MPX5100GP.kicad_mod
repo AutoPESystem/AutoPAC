@@ -1,0 +1,258 @@
+(footprint "MPX5100GP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MPX5100GP-4")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 6.35 -2.003 0)
+		(layer "F.SilkS")
+		(uuid "a48137a5-6d59-4f1d-8956-f63aab3f9048")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MPX5100GP"
+		(at 6.35 -2.003 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "337611c1-5ee8-4b31-85a0-527b80009c3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e0ea352-4d31-44fe-8859-8348ef7793a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf152faa-35bc-473c-a6e5-25921de7c3c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "779e5fc5-e221-403a-b124-5dc3f8d080e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.575 -6.005)
+		(end 21.275 -6.005)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b0013b5-1f61-44ef-9061-0b82b1174ec8")
+	)
+	(fp_line
+		(start -8.575 2)
+		(end -8.575 -6.005)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e53c7d2-cf7a-4119-bd90-cc038a21bb93")
+	)
+	(fp_line
+		(start 21.275 -6.005)
+		(end 21.275 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f75eb93c-ebe5-4b75-a309-d0b4dabc7074")
+	)
+	(fp_line
+		(start 21.275 2)
+		(end -8.575 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "447311ab-26b2-484a-b528-4be571d884c2")
+	)
+	(fp_line
+		(start -9.575 -7.005)
+		(end 22.275 -7.005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26bbe450-9164-44ba-8a7a-38729d41b4cc")
+	)
+	(fp_line
+		(start -9.575 3)
+		(end -9.575 -7.005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1721da90-90c7-44fa-b80d-af4ee71bcf4a")
+	)
+	(fp_line
+		(start 22.275 -7.005)
+		(end 22.275 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6bd8ee2-4333-4d25-8a2d-47b67efa7e07")
+	)
+	(fp_line
+		(start 22.275 3)
+		(end -9.575 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bb25c0d-2284-41bb-8512-3dd701f64b94")
+	)
+	(fp_line
+		(start -8.575 -6.005)
+		(end -8.575 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8360ee8-d5ea-436c-8c45-a3bda094776e")
+	)
+	(fp_line
+		(start -8.575 2)
+		(end 21.275 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55ba264c-fd20-4eae-94f6-e6e9b23fd818")
+	)
+	(fp_line
+		(start 21.275 -6.005)
+		(end -8.575 -6.005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "690aa3d4-f8cf-4111-b0c0-db9f12ddb1c3")
+	)
+	(fp_line
+		(start 21.275 2)
+		(end 21.275 -6.005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bdadb2d-6c06-4a13-bd95-debe745bb87e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.35 -2.003 0)
+		(layer "F.Fab")
+		(uuid "09ac0a3e-21a6-41f7-8f05-4004255ef880")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98c46eab-99bf-446d-b608-2ba5362e002c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a38482ed-bcdf-4619-8426-d5d7bff06cd7")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40b60ee6-2fde-4d63-975b-5605ef979ff2")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3df1a11e-fc4d-414a-bee9-6db72f5af7be")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bcc48086-0506-4c3a-85ff-50ff3f992c00")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "257a5ac1-bfdb-4690-84fe-59d86668ecfd")
+	)
+	(model "${KIPRJMOD}/Vendor_3D_Models/MPX5100GP.stp"
+		(offset
+			(xyz 6.25 1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
