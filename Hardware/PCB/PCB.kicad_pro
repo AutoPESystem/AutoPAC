@@ -606,6 +606,10 @@
     [
       "2c575094-53d3-436a-a8a8-f9c08813a187",
       "serial_spi_lcd"
+    ],
+    [
+      "834d03ef-9faf-4931-92c7-9dd2cf8b430f",
+      "buck"
     ]
   ],
   "text_variables": {}

@@ -1,4 +1,4 @@
-24634619389998425
+24639840431446910
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99232,6 +99232,13 @@ CON_541324062_MOL
 42
 42
 Vendor_Footprints
+CUI_PJ-102A
+
+
+0
+3
+3
+Vendor_Footprints
 DRV8243HQRXYRQ1
 RXY0014A_2022
 Integrated Circuit
@@ -99302,6 +99309,13 @@ QFN40P400X400X60-29N
 29
 29
 Vendor_Footprints
+RNX0012B
+
+LMR33630BRNXR 
+0
+12
+12
+Vendor_Footprints
 SOIC127P600X175-8N
 
 
@@ -99315,6 +99329,13 @@ SOP65P640X120-16N
 0
 16
 16
+Vendor_Footprints
+TENSILITY_54-00127
+
+
+0
+5
+5
 Vendor_Footprints
 TE_1985205
 
