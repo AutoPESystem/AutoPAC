@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "c183245f-a5fe-4538-9e38-6f7084f97832")
+	(uuid "ffab5eda-4dad-4222-8f31-09e0586d2486")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -3825,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "100 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/susumu/RG1608P-104-B-T5/1240451"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -3861,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL"
+		(property "MPN" "RG1608P-104-B-T5"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -3870,7 +3870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Susumu"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -4272,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "22.1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -4299,7 +4299,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722K1L/726563"
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/susumu/RG1608P-2212-B-T5/1240513"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -4308,7 +4308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0722K1L"
+		(property "MPN" "RG1608P-2212-B-T5"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -4317,7 +4317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Susumu"
 			(at 193.04 105.41 0)
 			(effects
 				(font

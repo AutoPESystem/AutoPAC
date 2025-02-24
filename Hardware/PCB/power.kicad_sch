@@ -1422,6 +1422,26 @@
 		)
 		(uuid "e4e11d94-88af-4fe1-99cb-05c9bafc6b34")
 	)
+	(text "500 mA MAX"
+		(exclude_from_sim no)
+		(at 176.784 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a1df0c0-ec7e-43ac-b224-ab6ffac28ae0")
+	)
+	(text "1 A MAX"
+		(exclude_from_sim no)
+		(at 79.502 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70e75be1-0de9-4cf7-8884-cef415abb4fa")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 92.71 54.61 0)
