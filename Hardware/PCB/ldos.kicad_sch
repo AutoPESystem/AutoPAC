@@ -2465,7 +2465,7 @@
 			(uuid "2e7d5638-cec7-40d3-ae4a-164a42f6b336")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
 					(reference "U9")
 					(unit 1)
@@ -3012,7 +3012,7 @@
 			(uuid "f206febf-adfc-4d51-984f-bbd5ea976195")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
 					(reference "U10")
 					(unit 1)

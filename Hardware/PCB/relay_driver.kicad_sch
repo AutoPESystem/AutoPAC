@@ -1165,13 +1165,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "340b39ee-718e-426a-970a-f65873fe5ce3")
+			(uuid "214f15b0-146d-4d39-a412-b2cee031fee6")
 		)
 		(pin "2"
-			(uuid "4af16753-beef-48f5-b1fc-f7927fcd21dc")
+			(uuid "d175b24f-c198-402c-be42-27abfe3ddd90")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "R13")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "R3")
 					(unit 1)
@@ -1271,13 +1275,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "bde3b6b7-8241-4060-85a2-1190a78d4581")
+			(uuid "353298f1-b54c-4ab6-bea3-4ed224d5e31d")
 		)
 		(pin "1"
-			(uuid "1eafcb18-282b-406e-b06f-ef95af6f3d21")
+			(uuid "104aa02f-cba6-4a1a-98a3-37628953075d")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "J1")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "J5")
 					(unit 1)
@@ -1377,13 +1385,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "84bd7644-9863-4b50-81b2-e2a0bca76901")
+			(uuid "abe4504a-5d6d-4236-9d65-2a0b6817b41f")
 		)
 		(pin "2"
-			(uuid "cfe8c1c6-e426-4c27-9098-688eca02fb15")
+			(uuid "d648eddf-7c17-4b02-b94c-d36ea486e391")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "D1")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "D3")
 					(unit 1)
@@ -1446,10 +1458,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d15070e-be69-4be6-b31b-de084296d232")
+			(uuid "6440576e-95d7-474e-8c11-1c83abb04f45")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "#PWR010")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "#PWR045")
 					(unit 1)
@@ -1512,10 +1528,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e356941a-8fa3-40a0-877d-722084b23733")
+			(uuid "f7c246ae-4943-478c-98f2-e7b7e30024e8")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "#PWR026")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "#PWR047")
 					(unit 1)
@@ -1603,13 +1623,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "de1f60be-3edb-4732-95a7-0780a0c99024")
+			(uuid "e603ce2f-531b-44f8-a67f-7bcac25564d2")
 		)
 		(pin "2"
-			(uuid "b58d99f8-b89f-4284-8e22-aef45bc4d8e7")
+			(uuid "759a11d4-c397-4edd-96fa-658e9ac73cc6")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "R14")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "R4")
 					(unit 1)
@@ -1671,10 +1695,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "790aa6dc-8620-4685-b1ca-92df593740ac")
+			(uuid "3c3fe788-bb4b-41f7-8382-afab9002f4b2")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "#PWR025")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "#PWR033")
 					(unit 1)
@@ -1777,16 +1805,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b3e3fdc-a654-49da-98c0-de3cac8d0009")
+			(uuid "ac148e16-08f8-4db0-982a-417fdf1f8c73")
 		)
 		(pin "3"
-			(uuid "b1774da8-917d-49b4-9925-4227321afb2a")
+			(uuid "dcb180d5-44cc-4248-bb46-a9c420ec9c6c")
 		)
 		(pin "2"
-			(uuid "b602bfdd-803d-4eae-9795-e380d12ed8a5")
+			(uuid "7e9bb0b8-5efe-46d3-b5a3-d3bbebd02ef1")
 		)
 		(instances
 			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "Q2")
+					(unit 1)
+				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
 					(reference "Q1")
 					(unit 1)

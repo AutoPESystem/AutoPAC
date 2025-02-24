@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 90.805 141.605)
-		(size 27.305 43.18)
+		(at 128.27 97.155)
+		(size 27.305 46.355)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "2c575094-53d3-436a-a8a8-f9c08813a187")
 		(property "Sheetname" "serial_spi_lcd"
-			(at 90.805 140.8934 0)
+			(at 128.27 96.4434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "serial_spi_lcd.kicad_sch"
-			(at 90.805 185.3696 0)
+			(at 128.27 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,6 +35,146 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "SDO" input
+			(at 128.27 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed495317-37b1-4414-808e-8bc59444c8e6")
+		)
+		(pin "SCLK" input
+			(at 128.27 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07c9b1b7-254a-41e5-8f32-f75e1bcfbc34")
+		)
+		(pin "CTP_SCL" input
+			(at 128.27 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c633f84-cc12-473f-beee-cc50558e67fc")
+		)
+		(pin "BACKLIGHT" input
+			(at 128.27 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf75670a-7997-4914-9402-274a5ecddace")
+		)
+		(pin "LCD_CS" input
+			(at 128.27 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec7856a5-9a58-4159-88e0-4e72f7a7fd10")
+		)
+		(pin "RESET" input
+			(at 128.27 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "422f4f85-4abc-413a-bdf1-7d1a06d7c41f")
+		)
+		(pin "CTP_SDA" input
+			(at 128.27 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "572c00c5-071b-4a46-a0ce-79e155c31720")
+		)
+		(pin "WR_DC" input
+			(at 128.27 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e949dae1-db44-45aa-be89-129972906719")
+		)
+		(pin "CTP_INT" input
+			(at 128.27 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9756c926-b22b-4c07-8bfa-56c0d625b95f")
+		)
+		(pin "FLASH_CS" input
+			(at 128.27 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1f40f58-5aa0-4e2a-89cf-22aa3b2e1bae")
+		)
+		(pin "FONT_CS" input
+			(at 128.27 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "120ed7c4-4110-4b32-a04f-ed9d5dce45af")
+		)
+		(pin "FLASH_WP" input
+			(at 128.27 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9604985e-02d3-4a07-b1b9-bedb75d670a4")
+		)
+		(pin "SD_CS" input
+			(at 128.27 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8246f79d-9fb8-4a70-b243-9922f2f59839")
+		)
+		(pin "SDI" input
+			(at 128.27 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e009e6c-7954-474b-b9ea-1d16b9e02e41")
 		)
 		(instances
 			(project "PCB"
@@ -45,8 +185,57 @@
 		)
 	)
 	(sheet
-		(at 209.55 102.87)
-		(size 26.67 29.845)
+		(at 198.12 127)
+		(size 24.765 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "4a165aa4-7909-4424-9e36-55565b46ba67")
+		(property "Sheetname" "relay_driver1"
+			(at 198.12 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_driver.kicad_sch"
+			(at 198.12 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RELAY-COIL-SIGNAL" input
+			(at 198.12 130.175 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2b2b604-84b5-452a-9332-8cd94f6fdfdb")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 197.485 92.71)
+		(size 12.7 15.875)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -57,7 +246,7 @@
 		)
 		(uuid "61701680-fda0-4967-8dfa-16cb06fdf2c2")
 		(property "Sheetname" "sensors"
-			(at 209.55 102.1584 0)
+			(at 197.485 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 209.55 133.2996 0)
+			(at 197.485 109.1696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +263,46 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "SCL" input
+			(at 197.485 95.885 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49305975-47f8-46cb-8131-aebf160e2009")
+		)
+		(pin "SDA" input
+			(at 197.485 98.425 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e84adfaf-3144-4572-8345-7ee91da3e0ba")
+		)
+		(pin "{slash}RESET" input
+			(at 197.485 102.235 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a76a2bd-a245-4dfa-9a39-f8c108b577f2")
+		)
+		(pin "{slash}DRDY" input
+			(at 197.485 104.775 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4f21469-60d8-4ee2-989f-0d8a5b842f4f")
 		)
 		(instances
 			(project "PCB"
@@ -95,7 +324,7 @@
 			(color 72 72 72 1.0000)
 		)
 		(uuid "7b0e6515-d50f-4bfe-893f-003a03c2261d")
-		(property "Sheetname" "power"
+		(property "Sheetname" "ldos"
 			(at 38.1 24.0534 0)
 			(effects
 				(font
@@ -104,13 +333,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
+		(property "Sheetfile" "ldos.kicad_sch"
 			(at 38.1 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -122,7 +352,7 @@
 		)
 	)
 	(sheet
-		(at 155.575 66.04)
+		(at 37.465 43.18)
 		(size 20.32 14.605)
 		(fields_autoplaced yes)
 		(stroke
@@ -130,11 +360,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 72 72 72 1.0000)
 		)
 		(uuid "834d03ef-9faf-4931-92c7-9dd2cf8b430f")
 		(property "Sheetname" "buck"
-			(at 155.575 65.3284 0)
+			(at 37.465 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -143,7 +373,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 155.575 81.2296 0)
+			(at 37.465 58.3696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,8 +391,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 34.29)
-		(size 24.765 17.145)
+		(at 198.12 114.935)
+		(size 24.765 6.35)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -173,7 +403,7 @@
 		)
 		(uuid "8f472cc7-0cdc-4363-8965-a201b46c7d86")
 		(property "Sheetname" "relay_driver"
-			(at 133.35 33.5784 0)
+			(at 198.12 114.2234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +412,7 @@
 			)
 		)
 		(property "Sheetfile" "relay_driver.kicad_sch"
-			(at 133.35 52.0196 0)
+			(at 198.12 121.8696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,6 +420,16 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "RELAY-COIL-SIGNAL" input
+			(at 198.12 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cca7443c-32c9-483c-89a1-fa24310b6dbe")
 		)
 		(instances
 			(project "PCB"
@@ -200,8 +440,8 @@
 		)
 	)
 	(sheet
-		(at 246.38 25.4)
-		(size 24.13 22.86)
+		(at 198.12 55.88)
+		(size 12.7 8.255)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -212,7 +452,7 @@
 		)
 		(uuid "ac699c2b-014c-4302-987d-d1905114f179")
 		(property "Sheetname" "motor_driver"
-			(at 246.38 24.6884 0)
+			(at 198.12 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -221,7 +461,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_driver.kicad_sch"
-			(at 246.38 48.8446 0)
+			(at 198.12 64.7196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,6 +469,26 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "IN1" input
+			(at 198.12 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc2f692e-ba9c-4858-adee-680832c5bd0c")
+		)
+		(pin "IN2" input
+			(at 198.12 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5ce7fac-cc97-4af5-a1d8-e2dd0e07ae57")
 		)
 		(instances
 			(project "PCB"
@@ -239,8 +499,8 @@
 		)
 	)
 	(sheet
-		(at 28.575 89.535)
-		(size 19.05 18.415)
+		(at 197.485 71.755)
+		(size 13.335 15.875)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -251,7 +511,7 @@
 		)
 		(uuid "ad7487dc-399a-47e5-adba-205f46c7c6b3")
 		(property "Sheetname" "rtc"
-			(at 28.575 88.8234 0)
+			(at 197.485 71.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,7 +520,7 @@
 			)
 		)
 		(property "Sheetfile" "rtc.kicad_sch"
-			(at 28.575 108.5346 0)
+			(at 197.485 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,6 +528,46 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "{slash}RST" input
+			(at 197.485 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61a7528a-034e-4182-9b73-bf2bb6ba5a50")
+		)
+		(pin "SCL" input
+			(at 197.485 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b26f223-f2b8-4677-8181-ad82af67950c")
+		)
+		(pin "SDA" input
+			(at 197.485 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8268e8d5-3ca4-43ad-9b39-d4b5a51975b8")
+		)
+		(pin "{slash}INT" input
+			(at 197.485 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5249a118-7111-4df7-b28b-ed3eaa4b5303")
 		)
 		(instances
 			(project "PCB"
@@ -278,8 +578,67 @@
 		)
 	)
 	(sheet
-		(at 91.44 57.15)
-		(size 21.59 65.405)
+		(at 198.12 43.18)
+		(size 12.7 8.255)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b3cc8058-8900-4489-8f24-3f60ef6980eb")
+		(property "Sheetname" "motor_driver1"
+			(at 198.12 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 198.12 52.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN1" input
+			(at 198.12 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa6cd136-adb1-44ca-ab59-46aa8b615056")
+		)
+		(pin "IN2" input
+			(at 198.12 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26fb9fd4-2da2-4b6e-b126-ad6d99ce4eb1")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 37.465 67.31)
+		(size 21.59 73.66)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -290,7 +649,7 @@
 		)
 		(uuid "ff61dc2f-422b-49d1-8de0-47d1b664f1fb")
 		(property "Sheetname" "esp32"
-			(at 91.44 56.4384 0)
+			(at 37.465 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +658,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 91.44 123.1396 0)
+			(at 37.465 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,6 +666,236 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "ESP-RX" input
+			(at 59.055 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "042977cc-d899-4251-a66a-8868427f4105")
+		)
+		(pin "D23" input
+			(at 59.055 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43ffdac5-59ed-4d6e-b529-1d7b5255d6f0")
+		)
+		(pin "D22" input
+			(at 59.055 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "471d41cf-2837-4aa7-8541-15722046c90b")
+		)
+		(pin "ESP-TX" input
+			(at 59.055 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62fdd21e-b555-49a1-8dfd-9cea4f750d12")
+		)
+		(pin "D19" input
+			(at 59.055 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "caf5099d-1561-40ac-af08-35f6de9abc58")
+		)
+		(pin "D21" input
+			(at 59.055 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff8a68ca-248f-4ba1-af51-e9b27d3731c3")
+		)
+		(pin "D5" input
+			(at 59.055 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0a90d00-3fb5-46c1-ad5d-006097bbe77d")
+		)
+		(pin "D18" input
+			(at 59.055 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce6f0be1-70fc-4d25-90a2-bd91b0806ecd")
+		)
+		(pin "D39" input
+			(at 59.055 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "217b250d-e1c9-4910-a8e7-81eb7446d913")
+		)
+		(pin "D34" input
+			(at 59.055 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a83d63e-4eac-46fc-9df1-9a0c79fc5c1a")
+		)
+		(pin "D32" input
+			(at 59.055 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2f2e55b-f107-4a3f-a287-4df06cd91616")
+		)
+		(pin "D35" input
+			(at 59.055 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f31044d7-277f-4a04-9f6a-3f77ad98b011")
+		)
+		(pin "D36" input
+			(at 59.055 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef92dcbb-ca25-4ad2-ae76-efc94518e426")
+		)
+		(pin "D2" input
+			(at 59.055 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3be79729-2aae-4717-b575-8fea5c24e57f")
+		)
+		(pin "D15" input
+			(at 59.055 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09914c06-5682-4775-8d25-98ded476eb17")
+		)
+		(pin "D4" input
+			(at 59.055 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5feb525-f834-4df3-a403-c6f74b3ab329")
+		)
+		(pin "D13" input
+			(at 59.055 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a869cf37-c148-43c9-a972-6c87739aa1c9")
+		)
+		(pin "D12" input
+			(at 59.055 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3526aa85-3451-4bbf-a109-41d5ac252d30")
+		)
+		(pin "D14" input
+			(at 59.055 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e963667a-b487-4d96-acca-9f84a01d86fb")
+		)
+		(pin "D26" input
+			(at 59.055 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da62d79f-f71e-42e5-9d1b-d90f26794a40")
+		)
+		(pin "D25" input
+			(at 59.055 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0afaab2-2380-4ff8-9dfb-58a627ebd46a")
+		)
+		(pin "D33" input
+			(at 59.055 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32c08b4f-8432-4331-8ca0-e5f64b75cd35")
+		)
+		(pin "D27" input
+			(at 59.055 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eecfadef-65b9-47a7-aecb-e39a07ba530a")
 		)
 		(instances
 			(project "PCB"

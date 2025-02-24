@@ -4562,6 +4562,17 @@
 		)
 		(uuid "1fe19e43-9e96-4cf8-83c0-d0d9e318d358")
 	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 123.19 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24f4eb2c-fd71-4ba2-a330-c3faf1073697")
+	)
 	(hierarchical_label "CTP_SCL"
 		(shape input)
 		(at 86.36 68.58 180)
@@ -4605,17 +4616,6 @@
 			(justify right)
 		)
 		(uuid "6b3cc772-a976-4737-b738-08cfc8992060")
-	)
-	(hierarchical_label "LCD_SDO"
-		(shape input)
-		(at 123.19 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7668fefb-d764-4e3a-856f-6ddfa8b62948")
 	)
 	(hierarchical_label "BACKLIGHT"
 		(shape input)
@@ -4661,6 +4661,28 @@
 		)
 		(uuid "c33bed14-ce9c-4dd6-a99c-8ad3a79101d0")
 	)
+	(hierarchical_label "SDO"
+		(shape input)
+		(at 123.19 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5c759f2-1ba2-4010-9cb5-4086f5ab2225")
+	)
+	(hierarchical_label "SDI"
+		(shape input)
+		(at 123.19 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da8f43d6-c9a1-4538-89e3-b951c591b25a")
+	)
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 123.19 50.8 0)
@@ -4682,28 +4704,6 @@
 			(justify right)
 		)
 		(uuid "e74e286c-d9ab-4207-89bc-6c2b56ad82d5")
-	)
-	(hierarchical_label "LCD_SDI"
-		(shape input)
-		(at 123.19 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb151c2d-87e3-4e17-8ab5-79889fdc2f54")
-	)
-	(hierarchical_label "DC_SCL"
-		(shape input)
-		(at 123.19 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6c06656-84d6-4268-a321-dc650eb4d39a")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -5000,8 +5000,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 Position FFC, FPC Connector Contacts, Bottom 0.039\" (1.00mm) Surface Mount, Right Angle"
 			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FFC3B07-40-T"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/gct/FFC3B07-40-T/10656983"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

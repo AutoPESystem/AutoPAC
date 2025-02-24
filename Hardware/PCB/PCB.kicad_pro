@@ -593,7 +593,7 @@
     ],
     [
       "7b0e6515-d50f-4bfe-893f-003a03c2261d",
-      "power"
+      "ldos"
     ],
     [
       "8f472cc7-0cdc-4363-8965-a201b46c7d86",
@@ -610,6 +610,14 @@
     [
       "834d03ef-9faf-4931-92c7-9dd2cf8b430f",
       "buck"
+    ],
+    [
+      "4a165aa4-7909-4424-9e36-55565b46ba67",
+      "relay_driver1"
+    ],
+    [
+      "b3cc8058-8900-4489-8f24-3f60ef6980eb",
+      "motor_driver1"
     ]
   ],
   "text_variables": {}
