@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "540b5c12-b581-460f-9dde-86eaad8992dd")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,6 +143,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Vendor_Symbols:ER-TFTM032-3"
 			(exclude_from_sim no)
@@ -217,179 +222,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB7"
+				(pin input line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -416,42 +259,6 @@
 					)
 				)
 				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -1.27 180)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at -13.97 -11.43 0)
 					(length 2.54)
 					(name "TE"
@@ -470,114 +277,6 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -3.81 180)
-					(length 2.54)
-					(name "LCD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -6.35 180)
-					(length 2.54)
-					(name "D/C(SCL)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -8.89 180)
-					(length 2.54)
-					(name "/WR(D/C)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -11.43 180)
-					(length 2.54)
-					(name "/RD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -15.24 180)
-					(length 2.54)
-					(name "LCD_SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -17.78 180)
-					(length 2.54)
-					(name "LCD_SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -13.97 -16.51 0)
 					(length 2.54)
 					(name "BL_ON/OFF"
@@ -588,24 +287,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -21.59 180)
-					(length 2.54) hide
-					(name "DB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -793,9 +474,364 @@
 						)
 					)
 				)
+				(pin input line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "LCD_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name "D/C(SCL)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -8.89 180)
+					(length 2.54)
+					(name "/WR(D/C)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -11.43 180)
+					(length 2.54)
+					(name "/RD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "LCD_SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "LCD_SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin no_connect line
 					(at 15.24 -21.59 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
+					(name "DB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
+					(name "DB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -21.59 180)
+					(length 2.54)
+					(hide yes)
 					(name "DB1"
 						(effects
 							(font
@@ -811,27 +847,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -13.97 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 15.24 -21.59 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DB2"
 						(effects
 							(font
@@ -849,7 +868,8 @@
 				)
 				(pin no_connect line
 					(at 15.24 -21.59 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DB3"
 						(effects
 							(font
@@ -867,7 +887,8 @@
 				)
 				(pin no_connect line
 					(at 15.24 -21.59 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DB4"
 						(effects
 							(font
@@ -885,7 +906,8 @@
 				)
 				(pin no_connect line
 					(at 15.24 -21.59 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DB5"
 						(effects
 							(font
@@ -903,7 +925,8 @@
 				)
 				(pin no_connect line
 					(at 15.24 -21.59 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DB6"
 						(effects
 							(font
@@ -920,12 +943,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -997,7 +1025,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1009,7 +1037,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1040,12 +1068,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1136,7 +1169,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "240x320 Touch Screen 3.2\"TFT LCD Module Display Arduino Library\nER-TFTM032-3"
+		(exclude_from_sim no)
+		(at 77.216 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9d50ef9-fe45-4968-90df-86fdab20b38c")
+	)
+	(text "150mA MAX"
+		(exclude_from_sim no)
+		(at 49.022 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d19a166e-100f-466a-ae9d-6f4e206f577e")
 	)
 	(junction
 		(at 80.01 50.8)
@@ -4495,28 +4549,116 @@
 			"j2mrh+FHN5EfP3+uhBBCCCGEEFLwimcXD0IIIYQQQgghhBR5xb+LByGEEEIIIYQQQv4oFKAghBBC"
 			"CCGEEELIb0cBCkIIIYQQQgghhPx2FKAghBBCCCGEEELIb0cBCkIIIYQQQgghhPx2FKAghBBCCCGE"
 			"EELIbyedZrRy5cqQpGrVqnHZhBBCCCGEEEIIIYUrLS0NR44cAWMsI0Dx6NEjPH78mFtNCCGEEEII"
-			"IYQQ8mtUrVoVbdq0yQhQcHmEEEIIIYQQQgghvwHwf4pEJNHq45M/AAAAAElFTkSuQmCC"
+			"IYQQ8mtUrVoVbdq0yQhQcHmEEEIIIYQQQgghvwHwf4pEJNHq45M/AAAAAElFTkSuQmCCQwBwAFUA"
+			"YwBzAGgAMQBIAEQAMQAyAEEAKwBHAFoATAAzAEYAKwB2AHoATQBlAFIAQgBTAEkAVQB2AEMAagA4"
+			"AE0AVABkAEQAZgBjAC8AeABzAFAAdgB2AEQAUAB1AGgAYgBIADcATwBlAFUAQgBEAGkAeQAwAHgA"
+			"ZgA3ADcAcQBVAGkALwBQAEIAUABHAGUAdgBYAFIAWQArAEoAYwB6AEoAdQA5AEIARAA3ADEARgAr"
+			"AEMALwB4AGoAUQA4AFEAVgBFAFUAUgBXAFcAZgA2AC8AeQB0AGwASwBOAFIAbwAwAGIAcwBmADEA"
+			"UwA1AEkAWABpAEQAUwBiADEANgA5AFUAaABnAFkAQwBEAHoANwAwADkATAB2AHoAKwBQADEASgBP"
+			"AFcASgB2AFUAWABYAEMASABIAGgAdgBjAGkAYQAxADUAdwAyAFMAVgA1AHMAZwBKAFgAawBLAGEA"
+			"QwBNAHEAMwBXAHYAQwBMAGYATABNADAASwBJAE0AdQBiAFMAaABPAEoAQwBoAFoAawBiAHcAUwBQ"
+			"AEsAVQB4AFcAQwBPADUATAB0ADEAcABEAFgAbgAxAGIAbQBBAFEAcwBiADAAcQBrAEoAUwBvAFEA"
+			"aQA3ADAAUgBSAEYARAA2AFcAOQBHADcAUwBCAGYAVgBQAHUAUgBJAEkAbgB0AGYAUgBFAG4AVwBW"
+			"AFYAUgBjAFgAQgB5AHgAdABiAFUAbAB5AHMAcgBLAHoATABlAEMASwBDAG8AcQBrAHIAbAB6ADUA"
+			"NQBLAFkAbQBCAGkAMgBSAEwAWQBMAEYAeQA0AEkAbAA4ACsAWQBNAFkAUABOACsAWABXAGMAbgBa"
+			"ADIASgBrAHAASwBTADgAUABrAEwASgBnAFUARgBCAGUATABuADUAOABlAFcALwBIAHQANgA5ACsA"
+			"NQBOAEoAQwBRAGsAeABLADYAagBsAHAAWQBXADQAZgBIAEUAdgBsAFAAVQBkADkAcQA4AGUAVABP"
+			"AFoATwBYAE0AbQBlAHkAKwAvADkATgB1AHoAUwBSADAAOQBVADIASgBtAFYASgAyAE0AOABVAHAA"
+			"aQBjAHgAawBwAHgATQBsAFMAaQBXAGcATQBPAGsAYgBlAGYALwBwAEUAUABuADIASwBJAEsARQB2"
+			"AGIAcABPAFQAUwA3AHEAUgBxAHMAcAAxAHkAWgBRAEwAYwBkAG4AZgBvAHgAUQBuAFkAcQBtAGsA"
+			"UQBRAFkAZABlAHkAOABvAEkAeQBnAFgARQBVAHAAZQAzAEQANQBKAGwAbgBTAHIAUwBwAFQAcgBU"
+			"AGkARQBYADQAdQBoADcAVwBPAHIARgA3AFMAWABkADUASwB1AFQAeQBUADcAcABiAND/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+s"
+			"xdD/rMXQ/6zF0P9yen7/VFRU/1RUVP9UVFT/VFRU/1RUVP9UVFT/VFRU/1RUVP9UVFT/VFRU/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+s"
+			"xdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+s"
+			"xdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+s"
+			"xdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/wAAAAAAAAAA"
+			"AAAAAGgAAGjCkyQA0Oj2AmgCAADg6XTJaAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE0AeAA0ADgA"
+			"ZgBDADIALwAvAEgAVgB5ADgAMgBIADgAWQBVAFMAUABXAFkAcgBLAFkANABBAFMAegAzAE8AMABT"
+			"ADAATAAxAGYALwBXADkAYQBWAHUAUgBKAHcASwAzAFQAMwB2AGcASQBIAGYAUwB3AGIAQwAvAFMA"
+			"agBaAFkAZwA4AGMAMQB0AFgATABwADQARQBSAGMAOQBuAGIAQgBxAHgAUQBIADQASgA3AE8ATAB5"
+			"AHAAagBmADAAbwBLAEMARgAzAFkAQgBqAG4AdQBEAFUAVwAvAFMARABIAFQAVABMAFIAQQBEAHkA"
+			"ZgBEAEgAOABUAFgAbgBJAEQAUABRAEYAcABaAFoAcAA3AEQAaQBWAEMAQQB5AEMAVABNAHcASwBR"
+			"AGMAYwBhAFQAbQBvAFYAbQAyAEUAegBuADAAcwAwAEMAaABuADcAaABXAHUAbwBQAHkASwBVAHcA"
+			"agBNAEwAZwBRAE8AUgB4AHAAeQBxAGwAWABSAHEASABNAGYAVwBEAFQAUwBLAHUATABOAEsANABE"
+			"ADcASABuAGYAUABQAGMAWQBuAFgAbAA1AGYAYQBjAGwASwBUAGQARwB0ADIAaQB2AHMATABzAEcA"
+			"NgBEAHEAeABYADQAbABjAHEAWABPAFkAVABIAEwARwAvAEQAQwBYAHIAKwBiAEEAeQBKAFAAQQAv"
+			"AHYAZwBLAG4AQQBqAE8ARgBJADkAZgBuAGIASAA5AEYAdgBTAGIAbwBhAHQAawBkAHgAbQBxAEYA"
+			"dAA0AGwATwBDAGIAbQBFAFEAdwBmAE8ANAB2AGIATABHAEgAQwBWAGQAVgBHAC8ANAAyAEMATQBH"
+			"AGQAWQBlAGUAagBtAGYAVQBOAEYAOQBCAGcAbABJAGMARABpAFEAbABxAHMASQB2AFMAWgBkAFkA"
+			"ZABuAGQARwBNAHgAVABjAHcATgBQAFkAWgBXAFQASAA5AEwAeQBkAGcAZQBMAEEANwBYAFcAWQB6"
+			"AEcAdgBkAHgAVQA4AE8AMgBxAFAATQAxADkATQBNAFcAMgBLAEcAUwByAGwANwBoAG8AKwBFAG0A"
+			"NwB2AGgAWQBPAC8ASQBhAFoATwBOAHMAMwB0AEwAMABYADkAZQBiAFEARgBCAFUAVwBWAHoAUABl"
+			"ADEAbwBPAEEAaQArAHIARQA3AFQAbAA4AEoAUQBDAHoAUgBRAFAAMAB1AEEAOQBHAHYAdQBYAGIA"
+			"dQBiAHcAMAAvAEkAUQBDAGUASgB6ADMAeABOAEUAWQBTAFYAVgByADEAeABaAEIAdQBoAGkAaAAr"
+			"AGUAQwArAEsAbwBuADYAMwBQADkAYQBDAGcAaABlAEQAaAB5AGYAMwA0AHQAaQBsAHBlBir5fwAA"
+			"E9feEERASKuIZ7Dy5pN5oy8AAAAAAAAA0FuFIIACAAAAAAAAAAAAANIDAAABAAAAAQAAAACGA4AA"
+			"AAAAAAAAAAAAAAAAAAAAENLdI4ACAAAAAAAAAAAAAAAAgD8AAAAA8M+ODoACAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAIKIn"
+			"DoACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAADwEgcq"
+			"+X8AAAAAAAAEAAAA9gQAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjo/yn5fwAA"
+			"BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AACYA4AAAAAAAAAAAN9KE1gAKwCAQPwhafl/AAABABBYAJkDgAAAAAAAAAAAAAAAAAAAAABwZQYq"
+			"+X8AAI54om3aZUspmkjlnk1ohRkvAAAAAAAAANBbhSCAAgAAAEpsWABtAIDSAwAAAQAAAAEAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAJwDgMAf3iOAAgAAAAAAAAAAAAAAAIA/AAAAAED7jg6AAgAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAIA/AJ8D"
+			"gECmJw6AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAA"
+			"8BIHKvl/AAAAAAAABAAAAPYEAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEUAQgBPAGoA"
+			"NAB3AFIARgBpAHAARwB4AGgAMAB5ADIAMABDAEYAbQBHADgATgBaAFUAOABvAFkAOABqAGgAdgBo"
+			"AFYASgBqAFMAbgBYAEIASwBlAFUAQgBSAFIAWgB0AG0AVABiAFYAVgBMAGYAQgBDAGkAKwAyAFUA"
+			"NQBDAFAAcAA4AGIAVABmAFQAawBXAHAAQwBWAFEAUQBWAHIAKwBZAG4AawBXAEQAOABWAG8AagBm"
+			"ACsAVQByADcAZwBRADkASwBWAGkAYQBTAG0AUQBnAGUAeQBPAFoAVAA1AGEAcABRAHMAUQBNAEUA"
+			"TAAyADAAOQA2AGEAYQBnAFQAMAA3AFcAUAA4ADYAOQAvADQAagAxAGkAMQAwAHEARgBhAFAAWQA5"
+			"AGwAQgAwAGcARQBRAFkAbwBWAE0AbQBnAGcAdgAwAEQAVQB1ADYAUQAvACsAcgBKAEUAcwBNADUA"
+			"ZAA0AFcARAA3ACsAVQBxADUAQwBTADUATgBQAHMAbQBRAEMARwBRAGYATgBlAFcATgBKAGEAWABJ"
+			"AEoAQgBtAEEAeABTAEMAVQA4AFgAbgA2ADkAbwBSAFYAYgBWAFcAWgBPAGEAcABBAEoASQA5AHYA"
+			"dQBCAG4AOAB1AHoAUQBHAE4ASgBRAFcAWQBOADAAMwAxAFUAdwBjAFAARgA3AEYAQgBtAGcAbwBI"
+			"ADYAYwBtAEEAQwBGAFEAcABVAEcAcABMADYAVwBJAFoAawBsAEcAcQBIAGcAZgBTAEwANwBlAHUA"
+			"cQBTAFcAcgBXADAAaQBVAEoAdQBnAEMASwBOAHYATAB0AGcAVAAzAHIAcgBhAHgARgB0AFQAYwBY"
+			"AHkASAA2AEEAbwBJADIAaQBBAGcAcQBMAEsAUAB4AHEAZwBvAEUAbwBqAEcAcQBBAFEAcgArAHcA"
+			"RwBLAEwASwBsAEIATABzAFQAKwA1AEgAbQB4AEwAaABHAEQAVgBLAG4AUwBXAHQAaQAzAHMATwBT"
+			"AEQAQgBrAHoAagArAHoAegBqAFIAYwBKAFQAdgBCAEkAOQBFAE0AWAA0AGoAQwArAE8AVgBIAGgA"
+			"UwBCAFAAOQBmAGkAdgBJAHcAUgB2AHYAMgBXAFUARgAwAFEARABGAEgAeABnAGsAVQB3AFoATgBi"
+			"AFkAYQBnAC8AawB0AFgAdQBBAFQAbQB0AGYAWABuAFIAMwB2AGcAeABGAFYAVgA5AEIALwBSAEcA"
+			"VwBKAG0AZwBzAHMAbQBxAFkATgBlAEsAKwBmAEIAUABOAEUATgB4ADYAOABVAE4AZwBDAGcASgBI"
+			"AFIANgByAGMAUQA4ADgAMABTADQASABiACsAQwBKAEgARAB4AGIATwA4AFUARABMAA=="
 		)
-	)
-	(text "240x320 Touch Screen 3.2\"TFT LCD Module Display Arduino Library\nER-TFTM032-3"
-		(exclude_from_sim no)
-		(at 77.216 32.512 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b9d50ef9-fe45-4968-90df-86fdab20b38c")
-	)
-	(text "150mA MAX"
-		(exclude_from_sim no)
-		(at 49.022 56.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d19a166e-100f-466a-ae9d-6f4e206f577e")
 	)
 	(hierarchical_label "SDO"
 		(shape input)
@@ -4974,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ER-TFTM032-3"
 			(at 104.775 48.26 0)
 			(effects
 				(font

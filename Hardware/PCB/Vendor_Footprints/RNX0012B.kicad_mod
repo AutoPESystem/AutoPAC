@@ -1,7 +1,7 @@
 (footprint "RNX0012B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "LMR33630BRNXR ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da9b7052-70d0-494e-8381-bed4f74b1643")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -80,7 +68,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "38596e3d-94f9-4d5a-93ab-42386d3763bb")
 	)
@@ -99,7 +87,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "de29feb5-8847-42cc-9736-8ef9b2c8003b")
 	)
@@ -110,7 +98,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 		(uuid "3b5f9bbf-98f9-46d8-b112-01ae3629eb36")
 	)
 	(fp_line
@@ -120,7 +108,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 		(uuid "c81e4f92-b745-4e7d-88b0-9ecb19cfc3f8")
 	)
 	(fp_line
@@ -130,7 +118,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 		(uuid "d5d8dcc8-4b39-472e-96ca-9a2ed95acf2d")
 	)
 	(fp_line
@@ -140,7 +128,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 		(uuid "9ed4a5fb-69ca-47b7-90bd-466265fe7dff")
 	)
 	(fp_circle
@@ -150,7 +138,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a300d5cd-8043-493c-bd1e-fbac5207ec87")
 	)
@@ -169,67 +157,67 @@
 	(pad "1" smd rect
 		(at -0.900001 -1.124999)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "93634f21-87a1-4536-b156-f0feb78b24a5")
 	)
 	(pad "2" smd rect
 		(at -0.900001 -0.475)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e0f7b751-97a3-4c4e-a5cf-2a7e4ba10730")
 	)
 	(pad "3" smd rect
 		(at -0.900001 0.175001)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2fc47bbc-45e8-42ab-9382-828a2c5d73f0")
 	)
 	(pad "4" smd rect
 		(at -0.900001 0.675)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "493305a0-c2e2-47bb-b7cc-435045fe00eb")
 	)
 	(pad "5" smd rect
 		(at -0.499999 1.4 90)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "928eaf57-48d8-4490-8713-4bd0233329b8")
 	)
 	(pad "6" smd rect
 		(at 0 1.4 90)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73fb1993-abe8-4c64-889d-fb8befb64c5b")
 	)
 	(pad "7" smd rect
 		(at 0.499999 1.4 90)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "700f5c95-43b9-4dd3-a508-c945c7395455")
 	)
 	(pad "8" smd rect
 		(at 0.900001 0.675)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9b65feef-5109-42aa-a0b4-edf35ea39f86")
 	)
 	(pad "9" smd rect
 		(at 0.900001 0.175001)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c73cefd4-cdf9-4031-afec-26bd3c5dc1aa")
 	)
 	(pad "10" smd rect
 		(at 0.900001 -0.475)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "171ab801-06db-4f82-b88c-6ed63fcf925f")
 	)
 	(pad "11" smd rect
 		(at 0.900001 -1.124999)
 		(size 0.599999 0.249999)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "053aaf48-74f4-4dc7-8b77-dee5b682bfc7")
 	)
 	(pad "12" smd rect
@@ -238,6 +226,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "eb10aa72-3fa6-4d58-b716-0234b12b2a3a")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/Vendor_3D_Models/RNX0012A.stp"
 		(offset
 			(xyz 0 0 0)
