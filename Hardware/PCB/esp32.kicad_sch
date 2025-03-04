@@ -1806,131 +1806,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2082,12 +1957,6 @@
 		(uuid "956fe430-2984-4ea8-9c9a-9802adcc94f6")
 	)
 	(junction
-		(at 93.98 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aaa1ddc-a036-41b3-ac38-739c686f6de4")
-	)
-	(junction
 		(at 101.6 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2126,6 +1995,10 @@
 	(no_connect
 		(at 101.6 99.06)
 		(uuid "05a3aca1-edef-43d6-8190-20e27be68087")
+	)
+	(no_connect
+		(at 201.93 134.62)
+		(uuid "1780cf3f-6ea7-4e84-95a9-6e117374828b")
 	)
 	(no_connect
 		(at 101.6 124.46)
@@ -2195,17 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.61) (xy 93.98 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdcc405-a7b0-4943-b4a7-6f9fdf0e16c6")
-	)
-	(wire
-		(pts
-			(xy 93.98 59.69) (xy 104.14 59.69)
+			(xy 83.82 59.69) (xy 104.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2415,6 +2278,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 83.82) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb0ed08-3e8a-4214-8751-4b5d52d1fbbb")
+	)
+	(wire
+		(pts
 			(xy 184.15 137.16) (xy 189.23 137.16)
 		)
 		(stroke
@@ -2455,6 +2328,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ebe993-b2a7-4804-bb59-d7c05a6ae938")
+	)
+	(wire
+		(pts
 			(xy 73.66 59.69) (xy 73.66 54.61)
 		)
 		(stroke
@@ -2462,16 +2345,6 @@
 			(type default)
 		)
 		(uuid "9566423c-58f1-48c8-af72-75a761541a2a")
-	)
-	(wire
-		(pts
-			(xy 201.93 134.62) (xy 223.52 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99bab399-0241-445d-becf-a3ae47be63e4")
 	)
 	(wire
 		(pts
@@ -2575,26 +2448,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 93.98 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c6d27f-763e-4409-9699-8cbd9c7dad2b")
-	)
-	(wire
-		(pts
-			(xy 93.98 49.53) (xy 93.98 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ece824-1541-452f-906c-6a3d2c609c28")
-	)
-	(wire
-		(pts
 			(xy 101.6 129.54) (xy 101.6 132.08)
 		)
 		(stroke
@@ -2635,16 +2488,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 59.69) (xy 93.98 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe39af13-02d6-4256-a9aa-614aab047a7c")
-	)
-	(wire
-		(pts
 			(xy 184.15 139.7) (xy 189.23 139.7)
 		)
 		(stroke
@@ -2652,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "fff2e65f-8be5-4ff4-8a15-fb02c9abfb78")
+	)
+	(label "TX"
+		(at 66.04 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08c22073-d23e-4f08-9e15-03f5964ebcf5")
 	)
 	(label "BOOT"
 		(at 207.01 139.7 0)
@@ -2722,6 +2575,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0a1389f-4d4a-4ebe-be59-b1c64952e8f2")
+	)
+	(label "RX"
+		(at 66.04 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea3308cb-0425-40a0-ba2e-978096544aa7")
 	)
 	(label "TX"
 		(at 184.15 137.16 180)
@@ -2967,19 +2830,6 @@
 		)
 		(uuid "728e60a0-f54b-4609-9af3-984c1c869410")
 	)
-	(hierarchical_label "GPIO43"
-		(shape input)
-		(at 71.12 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "8233a2b2-d5d5-48af-9f2b-39cfc5765c6e")
-	)
 	(hierarchical_label "GPIO2"
 		(shape input)
 		(at 71.12 93.98 180)
@@ -3096,19 +2946,6 @@
 			(justify right)
 		)
 		(uuid "de1c1b92-b44b-49b5-8c35-d26afa5bb9a8")
-	)
-	(hierarchical_label "GPIO44"
-		(shape input)
-		(at 71.12 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "dfe6ee9e-d590-4f8a-8bec-4ee251953a94")
 	)
 	(hierarchical_label "GPIO20"
 		(shape input)
@@ -3281,103 +3118,6 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 93.98 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f7461ba-7f73-487f-a73d-7616f0df07e8")
-		(property "Reference" "C34"
-			(at 96.52 50.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 96.52 53.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 93.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 93.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
-			(at 93.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A106KOQNNNG"
-			(at 93.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 93.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d2b75d65-bbb4-4784-915f-314a740f3487")
-		)
-		(pin "1"
-			(uuid "cb83606a-5333-4622-bf4e-b99f80566ae5")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3887,6 +3627,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f7313ac-869e-4ee4-871f-4eb4a3268c2e")
+		(property "Reference" "C45"
+			(at 86.36 50.8062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 86.36 53.3462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±20% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A226MOCLRNC"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MOCLRNC/5961264"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a993fe1-03da-4cfb-a1e8-37eb844e64df")
+		)
+		(pin "1"
+			(uuid "4d5d404c-882d-4ace-9da5-84412491e6e8")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 137.16 90)
 		(unit 1)
@@ -4310,170 +4156,6 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af5e2fcf-4b9c-4acd-ad1d-bcb14776610f")
-		(property "Reference" "#PWR0102"
-			(at 219.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.33 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7972bdce-d86c-4cb8-9690-eed1c69296a2")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 83.82 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b66a3580-fa52-464e-b1c6-50f07493a380")
-		(property "Reference" "C9"
-			(at 86.36 50.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 86.36 53.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A106KOQNNNG"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 83.82 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6263875-4749-4ea5-9b92-0d30f4f6e090")
-		)
-		(pin "1"
-			(uuid "31e697d1-463f-4b29-aa0b-a981c336e949")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "C9")
 					(unit 1)
 				)
 			)

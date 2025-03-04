@@ -1,4 +1,4 @@
-24791279566117170
+24793020500492189
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99619,6 +99619,13 @@ GCT_USB3160-XX-XXXX-X-X_REVA
 Vendor_Footprints
 MPX5100GP
 MPX5100GP-4
+Integrated Circuit
+0
+6
+6
+Vendor_Footprints
+MPX5500DP
+MPX5500DP-4
 Integrated Circuit
 0
 6

@@ -1264,6 +1264,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -1565,16 +1648,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 62.23 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f563706-8647-41ea-9da2-3e7ca8ff5a47")
-	)
-	(wire
-		(pts
 			(xy 250.19 53.34) (xy 250.19 55.88)
 		)
 		(stroke
@@ -1752,16 +1825,6 @@
 			(type default)
 		)
 		(uuid "2d145fac-34d9-4943-9ac6-e4e2a237265a")
-	)
-	(wire
-		(pts
-			(xy 58.42 77.47) (xy 62.23 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b427ec-36a0-4a85-ac50-4414c05a6bf8")
 	)
 	(wire
 		(pts
@@ -2742,7 +2805,7 @@
 		(uuid "1e36e51a-653c-44ea-a227-564b569dac80")
 	)
 	(label "VAC-IN1"
-		(at 191.77 64.77 180)
+		(at 191.77 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2754,7 +2817,7 @@
 		(uuid "1ff3f118-245e-437e-af34-dd3eb3789f08")
 	)
 	(label "DISP-RESET"
-		(at 62.23 106.68 0)
+		(at 62.23 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2778,7 +2841,7 @@
 		(uuid "23016ece-3aae-4be4-b8a5-5dd9e68b1c61")
 	)
 	(label "PUMP-IN2"
-		(at 62.23 88.9 0)
+		(at 62.23 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2826,7 +2889,7 @@
 		(uuid "27bf51a8-8194-480c-8f37-babf4fbdb1d6")
 	)
 	(label "DISP-DC"
-		(at 62.23 101.6 0)
+		(at 62.23 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2862,7 +2925,7 @@
 		(uuid "3289cd84-eb30-4267-9e15-c74e3e5c80b8")
 	)
 	(label "RTC-RESET"
-		(at 62.23 119.38 0)
+		(at 62.23 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2908,18 +2971,6 @@
 			(justify right bottom)
 		)
 		(uuid "3dc25ea1-a68c-4d91-90dc-763f6b52c035")
-	)
-	(label "GPIO44"
-		(at 62.23 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "42123b30-8643-4ab4-af88-b83f8385db49")
 	)
 	(label "SPI-MISO"
 		(at 123.19 105.41 180)
@@ -2982,7 +3033,7 @@
 		(uuid "53b2d74c-e4e5-42f8-9b96-1a7e28d3a65b")
 	)
 	(label "DISP-CS"
-		(at 62.23 109.22 0)
+		(at 62.23 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2994,7 +3045,7 @@
 		(uuid "55943878-f4e9-46fa-b2c2-db08444777d5")
 	)
 	(label "RTC-INT"
-		(at 62.23 91.44 0)
+		(at 62.23 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,18 +3067,6 @@
 			(justify right bottom)
 		)
 		(uuid "6bfbab50-986c-4d2f-8ba2-9bfd4049a043")
-	)
-	(label "GPIO43"
-		(at 62.23 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ef04bfe-0879-40f1-8e8f-b7c2928b94f9")
 	)
 	(label "PUMP-IN2"
 		(at 193.04 22.86 180)
@@ -3054,7 +3093,7 @@
 		(uuid "72d9aaea-a251-45b0-a6e2-b50e15fb4c35")
 	)
 	(label "VAC-IN2"
-		(at 62.23 124.46 0)
+		(at 62.23 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3078,7 +3117,7 @@
 		(uuid "7c04888c-4830-4797-81e3-341aec78c601")
 	)
 	(label "PUMP-IN1"
-		(at 62.23 86.36 0)
+		(at 62.23 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3090,7 +3129,7 @@
 		(uuid "888fea40-ac6f-4cba-8694-876f39cf8d1b")
 	)
 	(label "VAC-IN1"
-		(at 62.23 121.92 0)
+		(at 62.23 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,7 +3153,7 @@
 		(uuid "8abf557e-68b4-4999-9c54-6aa7ff39448c")
 	)
 	(label "PUMP-IN1"
-		(at 191.77 62.23 180)
+		(at 191.77 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3162,7 +3201,7 @@
 		(uuid "9fc94c9e-6375-443d-84e7-1b869c8260cc")
 	)
 	(label "ADC-DRDY"
-		(at 62.23 134.62 0)
+		(at 62.23 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3234,7 +3273,7 @@
 		(uuid "ac5e2347-45e8-48b7-8dee-cbe3ba1ba468")
 	)
 	(label "ADC-RESET"
-		(at 62.23 137.16 0)
+		(at 62.23 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3353,30 +3392,6 @@
 		)
 		(uuid "cd10f2cb-8029-40cf-a185-c6f629f72772")
 	)
-	(label "TOUCH-CS"
-		(at 62.23 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d765280b-8305-40ce-8147-29c94793c261")
-	)
-	(label "RTC-INT"
-		(at 62.23 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfa8f588-df09-44be-980f-9e7ceeefac7d")
-	)
 	(label "I2C-SCL"
 		(at 62.23 129.54 0)
 		(effects
@@ -3424,6 +3439,18 @@
 			(justify right bottom)
 		)
 		(uuid "f2218226-586b-4a91-bd0f-de3a6bf55968")
+	)
+	(label "GPIO10"
+		(at 62.23 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa64f9a7-6fc3-40aa-94b2-fd14415d9d9f")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3486,6 +3513,206 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 129.54 30.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52a59afd-a9f5-45be-b5c1-50004572e699")
+		(property "Reference" "H2"
+			(at 132.08 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 132.08 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 38.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fbf5ccd-690c-4715-b859-09bcdf9ac991")
+		(property "Reference" "H3"
+			(at 107.95 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3669,6 +3896,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 30.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b27ff0-6958-4ca8-95e9-c6c01e3a2bc5")
+		(property "Reference" "H1"
+			(at 107.95 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 60.96 270)
 		(unit 1)
@@ -3753,7 +4080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Brushless Vacuum Motor"
+		(property "Value" "Brushless Pump Motor"
 			(at 260.35 68.5799 0)
 			(effects
 				(font
@@ -3862,7 +4189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Brushless Pump Motor"
+		(property "Value" "Brushless Vac Motor"
 			(at 260.35 59.6899 0)
 			(effects
 				(font
@@ -3947,6 +4274,106 @@
 			(project ""
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 129.54 38.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f08a1a-d6fd-473a-9b11-e62e0154b0ab")
+		(property "Reference" "H4"
+			(at 132.08 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 132.08 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4723,8 +5150,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 71.12)
-		(size 20.32 93.98)
+		(at 38.1 83.185)
+		(size 20.32 81.915)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4739,7 +5166,7 @@
 		)
 		(uuid "6375b411-ae8a-4933-a8cb-c0042ff730b0")
 		(property "Sheetname" "ESP32-S3"
-			(at 38.1 70.4084 0)
+			(at 38.1 82.4734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,26 +5457,6 @@
 		(pin "GPIO15" input
 			(at 58.42 121.92 0)
 			(uuid "71e2653f-3d1a-4770-ba24-87e262270d7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO43" input
-			(at 58.42 80.01 0)
-			(uuid "6e9ab7be-e086-45eb-aaae-e482024371bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO44" input
-			(at 58.42 77.47 0)
-			(uuid "481d2eee-66cd-4c1a-9475-daab31e85151")
 			(effects
 				(font
 					(size 1.27 1.27)
