@@ -1850,6 +1850,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60b4007e-5884-49fb-a0d5-374406fe8e76")
 		)
@@ -1944,6 +1952,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -2071,6 +2087,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2308,6 +2332,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0f10c87-aed5-44a8-bccb-e61f20c321ce")
 		)
@@ -2411,6 +2443,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C19856735"
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -2840,6 +2880,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9d189f29-2afa-4405-8570-38cba2083e4a")
 		)
@@ -2944,6 +2992,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3118,6 +3174,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C398815"
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e3c76bc-2f1f-4947-9220-687036930c53")
 		)
@@ -3222,6 +3286,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3368,7 +3440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "GCM188R71H104KA57J"
+		(property "Manufacturer" "Murata Electronics"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -3393,6 +3465,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C3011652"
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3565,6 +3645,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C398815"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

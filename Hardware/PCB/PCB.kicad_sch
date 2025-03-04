@@ -3609,6 +3609,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
@@ -3709,6 +3717,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
@@ -3807,6 +3823,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C3820242"
+			(at 257.175 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -3986,6 +4010,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project ""
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
@@ -4152,6 +4184,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3817619"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "50878a01-a4c9-40fa-9c69-537cd8e49ab2")
 		)
@@ -4259,6 +4299,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C3817619"
+			(at 257.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -4370,6 +4418,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7"
@@ -4468,6 +4524,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C7435015"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"

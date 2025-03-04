@@ -447,7 +447,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "MA Footprints"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -510,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -558,7 +560,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -582,7 +584,7 @@
           "group_by": false,
           "label": "DigiKey Link",
           "name": "DigiKey Link",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -607,6 +609,12 @@
           "label": "Description",
           "name": "Description",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
