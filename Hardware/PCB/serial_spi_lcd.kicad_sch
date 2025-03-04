@@ -4675,7 +4675,25 @@
 			"eQA1AEQAbwBWAHQAZgB0AEIARgBVAHAAaQB0AGEATABzAE0AYQBrADMAdQBZADIATABvADcAaABn"
 			"AHoAdQBnAHIAWQB6AC8AVwBHACsAYgBoAEYANgBGAGoAMQA3ADEAMQArAGoAcQBOADgAZQBRAHcA"
 			"ZQBaAFEASQAxAGIAQQAzADEAWABiAE0ASAAyAEkAeQA1AFkAWgBYAHcAWABzAC8AdQBPAHgAZgBG"
-			"AFAAZwBxAE8ANQBsAEQAYQBhAEQAKwAwAEoAQQA0AG4AcwBzAFoAQQBLAGwAWABnAA=="
+			"AFAAZwBxAE8ANQBsAEQAYQBhAEQAKwAwAEoAQQA0AG4AcwBzAFoAQQBLAGwAWABnAAAAEBs6AXIC"
+			"AACQVToBcgIAAIidSp/7fwAAkLtKn/t/AACInUqf+38AAMBVOgFyAgAAMBs6AXICAAAwvkqf+38A"
+			"AFAbOgFyAgAA8FU6AXICAACInUqf+38AAJC7Sp/7fwAAiJ1Kn/t/AAAgVjoBcgIAAHAbOgFyAgAA"
+			"ML5Kn/t/AACQGzoBcgIAAFBWOgFyAgAAiJ1Kn/t/AACQu0qf+38AAIidSp/7fwAAgFY6AXICAACw"
+			"GzoBcgIAADC+Sp/7fwAA0Bs6AXICAACwVjoBcgIAAIidSp/7fwAAkLtKn/t/AACInUqf+38AAOBW"
+			"OgFyAgAA8Bs6AXICAAAwvkqf+38AABAcOgFyAgAAEFc6AXICAACInUqf+38AAJC7Sp/7fwAAiJ1K"
+			"n/t/AABAVzoBcgIAADAcOgFyAgAAML5Kn/t/AABQHDoBcgIAAHBXOgFyAgAAiJ1Kn/t/AACQu0qf"
+			"+38AAIidSp/7fwAAoFc6AXICAABwHDoBcgIAADC+Sp/7fwAAkBw6AXICAADQVzoBcgIAAIidSp/7"
+			"fwAAkLtKn/t/AACInUqf+38AAABYOgFyAgAAsBw6AXICAAAwvkqf+38AANAcOgFyAgAAMFg6AXIC"
+			"AACInUqf+38AAJC7Sp/7fwAAiJ1Kn/t/AABgWDoBcgIAAPAcOgFyAgAAML5Kn/t/AAAQHToBcgIA"
+			"AJBYOgFyAgAAiJ1Kn/t/AACQu0qf+38AAIidSp/7fwAAwFg6AXICAAAwHToBcgIAADC+Sp/7fwAA"
+			"UB06AXICAADwWDoBcgIAAIidSp/7fwAAkLtKn/t/AACInUqf+38AACBZOgFyAgAAcB06AXICAAAw"
+			"vkqf+38AAJAdOgFyAgAAUFk6AXICAACInUqf+38AAJC7Sp/7fwAAiJ1Kn/t/AACAWToBcgIAALAd"
+			"OgFyAgAAML5Kn/t/AADQHToBcgIAALBZOgFyAgAAiJ1Kn/t/AACQu0qf+38AAIidSp/7fwAA4Fk6"
+			"AXICAADwHToBcgIAADC+Sp/7fwAAEB46AXICAAAQWjoBcgIAAIidSp/7fwAAkLtKn/t/AACInUqf"
+			"+38AAEBaOgFyAgAAMB46AXICAAAwvkqf+38AAFAeOgFyAgAAcFo6AXICAACInUqf+38AAJC7Sp/7"
+			"fwAAiJ1Kn/t/AACgWjoBcgIAAHAeOgFyAgAAML5Kn/t/AACQHjoBcgIAANBaOgFyAgAAiJ1Kn/t/"
+			"AACQu0qf+38AAIidSp/7fwAAAFs6AXICAACwHjoBcgIAADC+Sp/7fwAA0B46AXICAAAwWzoBcgIA"
+			"AIidSp/7fwAAkLtKn/t/AACInUqf+38AAGBbOgFyAgAA8B46AXICAAAwvkqf+38AAA=="
 		)
 	)
 	(hierarchical_label "SDO"
@@ -4977,7 +4995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -4986,7 +5004,34 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57J"
+		(property "MPN" "CL10B104KO8NNNC"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -5029,7 +5074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 73.66 55.8862 0)
 			(effects
 				(font

@@ -2979,7 +2979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 160.02 66.0462 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 45.72 71.1262 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -3584,7 +3584,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -3593,7 +3593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "CL10B105KO8NNNC"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -4180,7 +4180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 160.02 78.7462 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 76.2 53.3462 0)
 			(effects
 				(font

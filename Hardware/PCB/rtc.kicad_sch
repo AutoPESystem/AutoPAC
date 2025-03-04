@@ -1264,7 +1264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -1273,7 +1273,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604"
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -1282,7 +1282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "CL10B105KO8NNNC"
 			(at 133.35 36.83 0)
 			(effects
 				(font
@@ -1361,7 +1361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 144.78 36.83 0)
 			(effects
 				(font
@@ -1370,7 +1370,34 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57J"
+		(property "MPN" "CL10B104KO8NNNC"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 144.78 36.83 0)
 			(effects
 				(font
