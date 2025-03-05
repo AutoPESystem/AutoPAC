@@ -1,4 +1,4 @@
-24793020500492189
+24805208344852057
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65848,6 +65848,27 @@ Yellow 5381 Series LED
 0
 2
 2
+MA Footprints
+CONN_GCT_USB3160-XX-XXXX-X-X_REVA
+
+
+0
+8
+8
+MA Footprints
+SMPS_TPSM84338RCJR
+
+
+0
+21
+9
+MA Footprints
+SW_PTS647SN50SMTR2LFS
+PTS647SN50SMTR2LFS-2
+Switch
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -99568,6 +99589,27 @@ CONN_1-2834011-3_TEC
 3
 3
 Vendor_Footprints
+CONN_WJ15EDGRC-3.81-2P
+WJ15EDGRC-3.81-2P
+Connector
+0
+2
+2
+Vendor_Footprints
+CONN_WJ15EDGRC-3.81-3P
+HB9500-3
+Connector
+0
+3
+3
+Vendor_Footprints
+CONN_WJ15EDGRC-3.81-4P
+WJ15EDGRC-3.81-4P
+Connector
+0
+4
+4
+Vendor_Footprints
 CONV_TPSM84338RCJR
 
 
@@ -99721,6 +99763,13 @@ TE_1985218
 0
 4
 4
+Vendor_Footprints
+VREG_LM5017MR_NOPB
+
+
+0
+17
+17
 Vendor_Footprints
 X1SON8_DTT_TEX
 

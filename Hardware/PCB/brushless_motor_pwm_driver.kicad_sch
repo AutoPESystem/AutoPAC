@@ -5,6 +5,249 @@
 	(uuid "3a59c183-c963-4fd6-ad1f-70e4fab6762d")
 	(paper "A5")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -145,28 +388,29 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Logic_LevelTranslator:74LVCH2T45DC"
+		(symbol "Logic_LevelTranslator:SN74LVC2T45DCUR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 6.35 -11.43 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "74LVCH2T45DC"
-				(at 10.16 11.43 0)
+			(property "Value" "SN74LVC2T45DCUR"
+				(at 3.81 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-				(at 0 -21.59 0)
+				(at 1.27 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -174,8 +418,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf"
-				(at 6.35 -6.35 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf"
+				(at -22.86 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -183,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual supply translating transceiver with bus-hold for unused/floating inputs, 3-state, 2-bit, VSSOP-8"
+			(property "Description" "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,7 +454,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LVCH2T45DC_1_1"
+			(symbol "SN74LVC2T45DCUR_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -236,18 +480,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -2.54 -1.524) (xy -0.762 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.762 2.54) (xy -0.762 4.572) (xy 1.016 3.556) (xy -0.762 2.54)
 					)
 					(stroke
@@ -260,31 +492,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 1.524) (xy -2.54 1.524) (xy -2.54 2.54) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -2.54) (xy -0.762 -0.508) (xy 1.016 -1.524) (xy -0.762 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -3.556) (xy -2.54 -3.556) (xy -2.54 -2.54) (xy -3.81 -2.54)
+						(xy -0.762 1.524) (xy -2.54 1.524) (xy -2.54 2.54) (xy -4.572 2.54)
 					)
 					(stroke
 						(width 0)
@@ -320,6 +528,56 @@
 				)
 				(polyline
 					(pts
+						(xy 2.794 2.54) (xy 2.794 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC2T45DCUR_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.524) (xy -0.762 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.54) (xy -0.762 -0.508) (xy 1.016 -1.524) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.556) (xy -2.54 -3.556) (xy -2.54 -2.54) (xy -4.572 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.016 -1.524) (xy 2.794 -1.524) (xy 2.794 -2.54) (xy 4.064 -2.54)
 					)
 					(stroke
@@ -344,18 +602,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 2.54) (xy 2.794 1.524) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 2.794 -2.54) (xy 2.794 -3.556) (xy 1.016 -3.556)
 					)
 					(stroke
@@ -369,7 +615,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "1A"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -387,7 +633,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "2A"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -477,7 +723,7 @@
 				(pin bidirectional line
 					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "1B"
+					(name "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -495,7 +741,7 @@
 				(pin bidirectional line
 					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "2B"
+					(name "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -503,6 +749,131 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -877,6 +1248,18 @@
 		(color 0 0 0 0)
 		(uuid "639a9688-9e8c-43ac-9fa6-e85e1906b9c4")
 	)
+	(junction
+		(at 139.7 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7566a2-0577-4363-bb4a-680abb0a73b7")
+	)
+	(junction
+		(at 142.24 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef58a8a3-2285-4d61-ab26-159bc2912c0e")
+	)
 	(wire
 		(pts
 			(xy 102.87 69.85) (xy 113.03 69.85)
@@ -886,6 +1269,56 @@
 			(type default)
 		)
 		(uuid "03bb5619-8552-4dff-bc0f-920d83fc057f")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 133.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec91fa8-9811-4b8f-80d3-cb97f7e9390b")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1748b419-cd70-4d15-ab94-e60350445481")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b63f401-7432-4c8f-908b-24410f185836")
+	)
+	(wire
+		(pts
+			(xy 146.05 46.99) (xy 146.05 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2468bbfc-02cd-4b05-ac6c-353161f1570e")
+	)
+	(wire
+		(pts
+			(xy 129.54 49.53) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a862cc7-345a-4048-b494-37685d258fa3")
 	)
 	(wire
 		(pts
@@ -899,6 +1332,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 49.53) (xy 129.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f441fef-b57d-44f8-a8a7-7f113f49817b")
+	)
+	(wire
+		(pts
+			(xy 146.05 58.42) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e1676f-67a2-413d-8f84-beb7ac0ae004")
+	)
+	(wire
+		(pts
 			(xy 113.03 69.85) (xy 113.03 71.12)
 		)
 		(stroke
@@ -909,6 +1362,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f167f68-2427-4e11-a3f6-8cf46b2ae04c")
+	)
+	(wire
+		(pts
 			(xy 87.63 69.85) (xy 97.79 69.85)
 		)
 		(stroke
@@ -916,6 +1379,16 @@
 			(type default)
 		)
 		(uuid "5256ec24-c944-4995-96ba-193302a319d3")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b697fa-ec44-4274-b163-6486f74f8612")
 	)
 	(wire
 		(pts
@@ -936,16 +1409,6 @@
 			(type default)
 		)
 		(uuid "669f637c-eace-492e-8e70-a644f7208ea5")
-	)
-	(wire
-		(pts
-			(xy 115.57 49.53) (xy 110.49 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f11308-32de-4034-a3a4-ef9f67fb27c4")
 	)
 	(wire
 		(pts
@@ -979,13 +1442,33 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 54.61) (xy 115.57 54.61)
+			(xy 142.24 63.5) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ef12025-fb65-4678-b0dd-172d7152cde4")
+		(uuid "88d1e3bc-c246-4f58-858e-20f45388a86b")
+	)
+	(wire
+		(pts
+			(xy 142.24 52.07) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940f348b-60af-40ba-94bf-40efeed68005")
+	)
+	(wire
+		(pts
+			(xy 146.05 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e605c6-ef54-49e0-8478-4eb930477454")
 	)
 	(wire
 		(pts
@@ -996,6 +1479,36 @@
 			(type default)
 		)
 		(uuid "a10b5ba2-1799-4388-b6b2-a693b2e260aa")
+	)
+	(wire
+		(pts
+			(xy 146.05 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e52e56-4af8-4853-8a52-2115054f19eb")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1b1757-76bf-43fc-900a-9c6fc7c7976d")
+	)
+	(wire
+		(pts
+			(xy 133.35 49.53) (xy 146.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6371057-cc58-4a5a-887d-fc4617ff8d47")
 	)
 	(wire
 		(pts
@@ -1017,7 +1530,7 @@
 		)
 		(uuid "ef6c4851-fbb7-4c09-89e6-b1ceec7ff1ad")
 	)
-	(hierarchical_label "PWM_1"
+	(hierarchical_label "Vac_PWM"
 		(shape input)
 		(at 85.09 54.61 180)
 		(effects
@@ -1028,29 +1541,7 @@
 		)
 		(uuid "07d4ec1a-66ec-4324-b8ac-a7e3197db20d")
 	)
-	(hierarchical_label "BRUSHLESS_PWM_2"
-		(shape input)
-		(at 115.57 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f58f705-034c-44b4-9c4f-021011bba43c")
-	)
-	(hierarchical_label "BRUSHLESS_PWM_1"
-		(shape input)
-		(at 115.57 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aec24387-f55c-4f5f-8a49-3ccbdd7970e2")
-	)
-	(hierarchical_label "PWM_2"
+	(hierarchical_label "Pump_PWM"
 		(shape input)
 		(at 85.09 49.53 180)
 		(effects
@@ -1212,7 +1703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 90.17 74.9362 0)
 			(effects
 				(font
@@ -1239,7 +1730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -1257,7 +1748,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KO8NNNC"
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -1266,7 +1757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -1275,7 +1766,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -1365,6 +1856,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56318258-5d73-4aa0-931a-a38fa1e694cd")
+		(property "Reference" "#PWR078"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.478 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae3335f8-cfd4-4b98-8c25-f08a4f6396bd")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/36945df3-b817-4c83-b80f-e4180452886e"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LVC2T45DCUR")
+		(at 100.33 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f228d1-1b61-4f88-a6be-80b92000a460")
+		(property "Reference" "U2"
+			(at 103.4481 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SN74LVC2T45DCUR"
+			(at 103.4481 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2T45DCUR"
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15741"
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "68c1d767-f540-4845-af39-cf1ad1f0c17a")
+		)
+		(pin "4"
+			(uuid "326baa97-657e-4175-bb09-401d6b0becf0")
+		)
+		(pin "1"
+			(uuid "b1c1c88b-b0f7-4137-8953-fc84e8396d8e")
+		)
+		(pin "3"
+			(uuid "300d77b9-5666-4d76-8611-6b04ea154294")
+		)
+		(pin "8"
+			(uuid "63cf3506-c5d9-4fe9-ac06-6aab231dafb3")
+		)
+		(pin "2"
+			(uuid "3fa2354e-3795-48a9-8469-6304aed3069d")
+		)
+		(pin "6"
+			(uuid "aa1b6909-2c30-4e1a-b990-bf9bbab1e2eb")
+		)
+		(pin "5"
+			(uuid "f06b3ff6-d059-43a8-91b3-393038a05a9d")
+		)
+		(instances
+			(project ""
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/36945df3-b817-4c83-b80f-e4180452886e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 113.03 66.04 0)
 		(unit 1)
@@ -1431,32 +2120,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Logic_LevelTranslator:74LVCH2T45DC")
-		(at 100.33 52.07 180)
+		(lib_id "power:+24V")
+		(at 139.7 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "93a82c3f-357e-4f98-a567-2a0b7229fe1a")
-		(property "Reference" "U5"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC2T45DC"
-			(at 100.584 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-			(at 100.33 30.48 0)
+		(fields_autoplaced yes)
+		(uuid "9268b455-c968-4018-bbe4-2d47ccb4a639")
+		(property "Reference" "#PWR027"
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,8 +2138,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf"
-			(at 93.98 45.72 0)
+		(property "Value" "+24V"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,8 +2155,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage Level Translator Bidirectional 1 Circuit 2 Channel 420Mbps 8-VSSOP"
-			(at 100.33 52.07 0)
+		(property "Datasheet" ""
+			(at 139.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,78 +2164,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74LVC2T45DC,125"
-			(at 100.33 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 139.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "Nexperia USA Inc."
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/74LVC2T45DC-125/2530595"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "bb3db205-6545-4f18-89ae-78f26a38e3d2")
-		)
-		(pin "7"
-			(uuid "0f3b3757-a486-45ec-8fb7-897fb7938ece")
 		)
 		(pin "1"
-			(uuid "bebe3a56-0565-435e-9dac-a26499b6cbb5")
-		)
-		(pin "5"
-			(uuid "8be9ce42-823e-42ed-9713-925e90e790f5")
-		)
-		(pin "3"
-			(uuid "aa0c24d4-0ece-4905-ae3d-d5b6f14254f9")
-		)
-		(pin "2"
-			(uuid "291d8eb8-9651-40c9-8741-263f44ca0410")
-		)
-		(pin "6"
-			(uuid "7f67714e-720d-482a-a194-3ff03e26ab3d")
-		)
-		(pin "8"
-			(uuid "76a2e8a4-2942-44e5-ba77-e5dbdd30c33f")
+			(uuid "549521f4-5d30-4021-8c17-95b420541ec3")
 		)
 		(instances
 			(project ""
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/36945df3-b817-4c83-b80f-e4180452886e"
-					(reference "U5")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1578,7 +2204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 115.57 74.9362 0)
 			(effects
 				(font
@@ -1605,7 +2231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -1623,7 +2249,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KO8NNNC"
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -1632,7 +2258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -1641,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -1659,6 +2285,240 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/36945df3-b817-4c83-b80f-e4180452886e"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 151.13 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a6cf12-89a8-4a86-905b-20787a518be9")
+		(property "Reference" "J4"
+			(at 153.67 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLDC Motor"
+			(at 153.67 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vendor_Footprints:CONN_WJ15EDGRC-3.81-3P"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bend -40℃~+105℃ 1 3.81mm 300V 8A 3 1x3P Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block ROHS"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ15EDGRC-3.81-3P"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ningbo Kangnex Elec"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8406"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "465bff0f-eb74-4185-ac4f-ab3a36f5b52d")
+		)
+		(pin "1"
+			(uuid "bf638895-7bd3-401a-90e8-ec9ed5be8b41")
+		)
+		(pin "2"
+			(uuid "f48034ee-79f5-46ef-bcc8-85ef59212d83")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/36945df3-b817-4c83-b80f-e4180452886e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 151.13 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e77d07e1-ec03-4dde-ac96-747c113d884a")
+		(property "Reference" "J3"
+			(at 153.67 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLDC Motor"
+			(at 153.67 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vendor_Footprints:CONN_WJ15EDGRC-3.81-3P"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bend -40℃~+105℃ 1 3.81mm 300V 8A 3 1x3P Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block ROHS"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ15EDGRC-3.81-3P"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ningbo Kangnex Elec"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8406"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d2cb4a58-b712-475a-a63a-dd4207ce47e7")
+		)
+		(pin "1"
+			(uuid "1d9ddb45-4270-4e36-aa92-a5ee0eff36a0")
+		)
+		(pin "2"
+			(uuid "72d7d595-7c66-4b3f-b9d8-90777d3389a9")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/36945df3-b817-4c83-b80f-e4180452886e"
+					(reference "J3")
 					(unit 1)
 				)
 			)

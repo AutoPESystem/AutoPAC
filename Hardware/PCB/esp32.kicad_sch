@@ -1520,167 +1520,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Vendor_Symbols:PTS647SN50SMTR2_LFS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Vendor_Footprints:PTS647SN50SMTR2LFS"
-				(at 0.508 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PTS647SN50SMTR2_LFS_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PTS647SN50SMTR2_LFS_1_1"
-				(pin input line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2028,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f4dcc5-6383-429c-b7ea-cfc49a8627bf")
-	)
-	(wire
-		(pts
 			(xy 101.6 144.78) (xy 101.6 147.32)
 		)
 		(stroke
@@ -2088,16 +1917,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 153.67 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed0f528-303c-48df-b9b0-d31cee1cd248")
-	)
-	(wire
-		(pts
 			(xy 101.6 139.7) (xy 101.6 142.24)
 		)
 		(stroke
@@ -2138,26 +1957,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 153.67 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c284609-dd24-4d6d-ae47-36edeaa79f2b")
-	)
-	(wire
-		(pts
-			(xy 151.13 80.01) (xy 157.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331f1709-359a-4700-8e1f-78f0653ce541")
-	)
-	(wire
-		(pts
 			(xy 73.66 49.53) (xy 73.66 45.72)
 		)
 		(stroke
@@ -2188,16 +1987,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 153.67 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c19626-1ef7-4b1c-b42a-95936f64e5a6")
-	)
-	(wire
-		(pts
 			(xy 73.66 59.69) (xy 83.82 59.69)
 		)
 		(stroke
@@ -2208,16 +1997,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 63.5) (xy 146.05 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5839b34c-a277-4b90-a383-448adc1f4fe2")
-	)
-	(wire
-		(pts
 			(xy 53.34 76.2) (xy 71.12 76.2)
 		)
 		(stroke
@@ -2225,36 +2004,6 @@
 			(type default)
 		)
 		(uuid "5dba7a24-19c3-49bf-bf81-a1093f0a3350")
-	)
-	(wire
-		(pts
-			(xy 151.13 67.31) (xy 157.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62897c95-8246-4f8a-ad6b-1ff78312f11f")
-	)
-	(wire
-		(pts
-			(xy 142.24 80.01) (xy 146.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6913689e-8e3d-412c-969b-0e9138a9ccd6")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.2) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6978dd6c-9853-4920-9adf-245029a30915")
 	)
 	(wire
 		(pts
@@ -2358,16 +2107,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 62.23) (xy 157.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5dff239-3c7a-4a80-9421-ccb9809af4b0")
-	)
-	(wire
-		(pts
 			(xy 104.14 59.69) (xy 104.14 73.66)
 		)
 		(stroke
@@ -2395,16 +2134,6 @@
 			(type default)
 		)
 		(uuid "af10c7bb-52be-448e-bd80-dc2a4d15f96c")
-	)
-	(wire
-		(pts
-			(xy 142.24 76.2) (xy 146.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9cab62a-361c-4903-8e61-d7e1ac120052")
 	)
 	(wire
 		(pts
@@ -2458,16 +2187,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 146.05 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1097c18-9438-4f67-8245-3c78771f8aca")
-	)
-	(wire
-		(pts
 			(xy 101.6 147.32) (xy 101.6 149.86)
 		)
 		(stroke
@@ -2516,16 +2235,6 @@
 		)
 		(uuid "303b3ad5-9d86-4acd-b919-4014c9d35ff8")
 	)
-	(label "BOOT"
-		(at 142.24 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64e8bf2b-fe61-46b5-9403-59b3fd094c4f")
-	)
 	(label "RX"
 		(at 184.15 139.7 180)
 		(effects
@@ -2555,16 +2264,6 @@
 			(justify right bottom)
 		)
 		(uuid "8b03b829-46e6-46a6-a0bd-2528d26e0df6")
-	)
-	(label "EN"
-		(at 142.24 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aae63a31-cd43-42d8-b7f9-1ab0c1fbd528")
 	)
 	(label "EN"
 		(at 59.69 76.2 0)
@@ -2961,111 +2660,6 @@
 		(uuid "fda7749c-c46c-4771-9e11-5cb216a31224")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 157.48 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "097080c7-26ea-489a-8162-978315f2d6b9")
-		(property "Reference" "C35"
-			(at 160.02 63.5062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 160.02 66.0462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10B104KO8NNNC"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C66501"
-			(at 157.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "682e667a-e159-4ef6-a26f-d13eb4ad2c8a")
-		)
-		(pin "1"
-			(uuid "bb336bfc-2052-488f-bec4-73b913367422")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 158.75 0)
 		(unit 1)
@@ -3132,73 +2726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24e7d0f0-81c2-4fbc-a7a6-f4a5db44e3bf")
-		(property "Reference" "#PWR0105"
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbf70b64-99b2-4f50-8b06-9e706c462199")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 53.34 69.85 0)
 		(unit 1)
@@ -3244,7 +2771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "0.1W Thick Film Resistors 75V ±100ppm/℃ ±5% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 53.34 69.85 0)
 			(effects
 				(font
@@ -3262,7 +2789,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "FRC0603J103TS"
 			(at 53.34 69.85 0)
 			(effects
 				(font
@@ -3271,7 +2798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
+		(property "Manufacturer" "FOJAN"
 			(at 53.34 69.85 0)
 			(effects
 				(font
@@ -3280,7 +2807,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Mouser Link" ""
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930027"
 			(at 53.34 69.85 0)
 			(effects
 				(font
@@ -3364,124 +2900,6 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Vendor_Symbols:PTS647SN50SMTR2_LFS")
-		(at 148.59 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68a17656-06fb-4704-9993-a60071c68c7a")
-		(property "Reference" "SW1"
-			(at 147.955 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 147.955 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Vendor_Footprints:PTS647SN50SMTR2LFS"
-			(at 149.098 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/c-k/pts647sn50smtr2-lfs/9649857"
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS647SN50SMTR2 LFS"
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "C&K"
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "d3e02938-68b6-4f8f-82d8-71c144546950")
-		)
-		(pin "4"
-			(uuid "92b83815-fa25-4729-8ad1-ca92569128de")
-		)
-		(pin "2"
-			(uuid "4160efd0-8083-4f51-9222-459004bff1cd")
-		)
-		(pin "1"
-			(uuid "27cb1766-6390-4023-9884-def16746460a")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "50V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -3617,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KO8NNNC"
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -3635,7 +3053,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59782"
+		(property "LCSC" "C15849"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -3704,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±20% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 83.82 52.07 0)
 			(effects
 				(font
@@ -3713,7 +3131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MOCLRNC"
+		(property "MPN" "CL21A226MAYNNNE"
 			(at 83.82 52.07 0)
 			(effects
 				(font
@@ -3749,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C398815"
+		(property "LCSC" "C602037"
 			(at 83.82 52.07 0)
 			(effects
 				(font
@@ -3911,7 +3329,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N16R8/16162641"
+		(property "DigiKey Link" ""
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -3929,7 +3347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3013946"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -4137,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 6 position 0.100\" (2.54mm)"
+		(property "Description" "2.54mm -40℃~+105℃ Direct Insert 3A 2x3P 250V 3 Simple cow constellation 2.54mm 2 Plugin,P=2.54mm IDC Connectors ROHS"
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -4146,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61200621621"
+		(property "MPN" "XFCN BH254V-6P"
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -4155,7 +3573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "XFCN"
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -4164,7 +3582,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61200621621/4846913"
+		(property "DigiKey Link" ""
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -4182,7 +3600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5372863"
+		(property "LCSC" "C492441"
 			(at 194.31 137.16 0)
 			(effects
 				(font
@@ -4219,178 +3637,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 157.48 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c18ae106-6c6d-4c1f-9a9f-8db31e3447ff")
-		(property "Reference" "C36"
-			(at 160.02 76.2062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 160.02 78.7462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10B104KO8NNNC"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C66501"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d6be4936-754f-4673-90c7-50adef2b4e51")
-		)
-		(pin "1"
-			(uuid "a4d86b5e-59bf-4616-a9b6-95d51f9c7422")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e349bc61-b875-483f-9877-e4c50c06eb83")
-		(property "Reference" "#PWR0104"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d7fcb2f-ab9d-4fe7-a7cb-236770720a69")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 73.66 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4408,7 +3654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 76.2 53.3462 0)
 			(effects
 				(font
@@ -4435,7 +3681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 73.66 52.07 0)
 			(effects
 				(font
@@ -4453,7 +3699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KO8NNNC"
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 73.66 52.07 0)
 			(effects
 				(font
@@ -4462,7 +3708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 73.66 52.07 0)
 			(effects
 				(font
@@ -4471,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C14663"
 			(at 73.66 52.07 0)
 			(effects
 				(font
@@ -4489,115 +3735,6 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Vendor_Symbols:PTS647SN50SMTR2_LFS")
-		(at 148.59 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f57cd229-db9e-4615-82cc-642d0be29110")
-		(property "Reference" "SW2"
-			(at 147.955 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 147.955 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Vendor_Footprints:PTS647SN50SMTR2LFS"
-			(at 149.098 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/c-k/pts647sn50smtr2-lfs/9649857"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS647SN50SMTR2 LFS"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "C&K"
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "341cd081-5617-45fb-adca-ee1db02237f1")
-		)
-		(pin "4"
-			(uuid "98ab18ca-ccfc-4fb4-8875-a766dd0c23d7")
-		)
-		(pin "2"
-			(uuid "bab459a4-0e75-4b2a-848d-c22b958f0ed3")
-		)
-		(pin "1"
-			(uuid "41e7540c-23f3-4d5b-a680-6c74ecd9cc4a")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/6375b411-ae8a-4933-a8cb-c0042ff730b0"
-					(reference "SW2")
 					(unit 1)
 				)
 			)

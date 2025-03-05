@@ -5,7 +5,197 @@
 	(uuid "91db3d9f-c509-4761-9a3a-73c143b4ff08")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Device:D"
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,7 +214,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -50,7 +240,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,25 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,10 +267,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -133,7 +305,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -770,6 +942,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 40.64) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b37d2f3-b369-40ea-bdf0-c8883e3d9162")
+	)
+	(wire
+		(pts
 			(xy 104.14 48.26) (xy 104.14 40.64)
 		)
 		(stroke
@@ -780,6 +962,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 52.07) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0cbe0d-d1a6-4d9b-b69f-76ef63acb4c1")
+	)
+	(wire
+		(pts
+			(xy 142.24 49.53) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669dbb0b-50ae-4d3f-8ac7-2315b95c6805")
+	)
+	(wire
+		(pts
 			(xy 91.44 69.85) (xy 96.52 69.85)
 		)
 		(stroke
@@ -787,6 +989,16 @@
 			(type default)
 		)
 		(uuid "a30d4ad6-19b9-4e4c-b524-938a5e0bf4ee")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87fc661-b4cd-47ce-bce8-b615fbf6d7e1")
 	)
 	(wire
 		(pts
@@ -858,17 +1070,6 @@
 		)
 		(uuid "fefe9d60-5be0-46d3-9fed-fa382eb9c935")
 	)
-	(hierarchical_label "COIL-"
-		(shape output)
-		(at 142.24 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d41618b-cf06-4901-9d16-873269c2d15d")
-	)
 	(hierarchical_label "RELAY-COIL-SIGNAL"
 		(shape input)
 		(at 68.58 69.85 180)
@@ -882,16 +1083,185 @@
 		)
 		(uuid "f3cf8fbd-a4ac-46a6-8ca4-e045f1189816")
 	)
-	(hierarchical_label "COIL+"
-		(shape output)
-		(at 142.24 40.64 0)
+	(rule_area
+		(polyline
+			(pts
+				(xy 101.6 26.67) (xy 101.6 88.9) (xy 160.02 88.9) (xy 160.02 26.67)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 011a363d-cc6f-4d40-b7de-24ebd718ec1a)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "f577cb02-fe6f-43bc-a53c-1ef60dcdd2e5")
+		(uuid "89585ac3-c2a9-4e99-afdd-891470e7bc9a")
+		(property "Netclass" "Power"
+			(at 102.2985 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -83.82 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 149.86 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2b0a8f-31f0-423f-8529-63cd578e9c24")
+		(property "Reference" "J7"
+			(at 152.4 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Solenoid Terminal"
+			(at 152.4 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vendor_Footprints:CONN_WJ15EDGRC-3.81-2P"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bend -40℃~+105℃ 1 3.81mm 300V 8A 2 1x2P Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block ROHS"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ15EDGRC-3.81-2P"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ningbo Kangnex Elec"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8387"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe769e15-ddc2-4de4-9b22-1380888e8bf7")
+		)
+		(pin "2"
+			(uuid "b782f481-2df0-4acf-92cc-4c07ab7e533a")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/1e792a32-a12a-46a8-83f1-b37e583d9876"
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/3f6906f5-f00b-4caa-9810-93d137e4cabb"
+					(reference "J17")
+					(unit 1)
+				)
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7e7ae9c3-435e-4cdb-9a6a-2e6acaf62b5d"
+					(reference "J15")
+					(unit 1)
+				)
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/f73bf6d1-61d7-4c70-a69f-681474ae5a2e"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -936,7 +1306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+		(property "Description" "0.1W Thick Film Resistors 75V ±100ppm/℃ ±5% 470Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -954,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-07470RL"
+		(property "MPN" "FRC0603J471 TS"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -963,7 +1333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "FOJAN"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -981,7 +1351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2907172"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -1025,7 +1395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Device:D_Schottky")
 		(at 104.14 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1033,9 +1403,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c89d290-dbd7-4ca1-a322-1e3caa13e5b7")
-		(property "Reference" "D3"
-			(at 106.68 50.7999 90)
+		(uuid "82735089-f48b-4ea2-9637-5c75d5ae194d")
+		(property "Reference" "D9"
+			(at 106.68 50.4824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,8 +1413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMD110PL-TP"
-			(at 106.68 53.3399 90)
+		(property "Value" "SS310"
+			(at 106.68 53.0224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -1070,7 +1440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 1A Surface Mount SOD-123FL"
+		(property "Description" "100V Independent Type 850mV@3A 3A SMA(DO-214AC) Schottky Diodes ROHS"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -1079,7 +1449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SMD110PL-TP"
+		(property "MPN" "SS310"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -1088,7 +1458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MCC (Micro Commercial Components)"
+		(property "Manufacturer" "MDD"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -1097,7 +1467,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SMD110PL-TP/2698532"
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/nextgen-components/SS34/15911595"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -1115,7 +1485,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C669053"
+		(property "LCSC" "C15874"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -1123,36 +1493,36 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c51908e6-1b52-41b6-9a4a-fca1b70e731b")
-		)
 		(pin "2"
-			(uuid "4c2f107d-70c0-4cd5-bcac-97c03022d51a")
+			(uuid "1140cba5-4586-4535-b465-65862725a934")
+		)
+		(pin "1"
+			(uuid "ae516cd3-94dd-4cc8-8f32-6b5a7cdc9317")
 		)
 		(instances
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/1e792a32-a12a-46a8-83f1-b37e583d9876"
-					(reference "D2")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/3f6906f5-f00b-4caa-9810-93d137e4cabb"
-					(reference "D7")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/4a165aa4-7909-4424-9e36-55565b46ba67"
-					(reference "D1")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7e7ae9c3-435e-4cdb-9a6a-2e6acaf62b5d"
-					(reference "D5")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/8f472cc7-0cdc-4363-8965-a201b46c7d86"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/f73bf6d1-61d7-4c70-a69f-681474ae5a2e"
-					(reference "D6")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -1373,7 +1743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "0.1W Thick Film Resistors 75V ±100ppm/℃ ±5% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -1391,7 +1761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
+		(property "MPN" "FRC0603J103TS"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -1400,7 +1770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
+		(property "Manufacturer" "FOJAN"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -1409,7 +1779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2930027"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -1631,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C916372"
 			(at 101.6 69.85 0)
 			(effects
 				(font

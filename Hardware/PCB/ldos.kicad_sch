@@ -145,308 +145,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:AP7361C-33E"
+		(symbol "Regulator_Linear:AZ1117-3.3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -461,7 +160,7 @@
 					)
 				)
 			)
-			(property "Value" "AP7361C-33E"
+			(property "Value" "AZ1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -470,8 +169,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.715 0)
+			(property "Footprint" ""
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -480,16 +179,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,7 +188,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -507,7 +197,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*"
+			(property "ki_keywords" "Fixed Voltage Regulator 1A Positive LDO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -516,10 +206,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP7361C-33E_0_1"
+			(property "ki_fp_filters" "SOT?223* SOT?89* TO?220* TO?252* TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AZ1117-3.3_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -529,7 +228,7 @@
 					)
 				)
 			)
-			(symbol "AP7361C-33E_1_1"
+			(symbol "AZ1117-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -540,7 +239,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -558,7 +257,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -576,7 +275,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1103,12 +802,6 @@
 		(uuid "73d97c63-c0bb-4897-b05d-505d0497ebf3")
 	)
 	(junction
-		(at 82.55 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0105de0-fd48-4f8d-b1bc-596124872f71")
-	)
-	(junction
 		(at 69.85 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1139,16 +832,6 @@
 			(type default)
 		)
 		(uuid "04a6f4fa-7fa5-47af-b662-f5754e61c4ea")
-	)
-	(wire
-		(pts
-			(xy 82.55 71.12) (xy 82.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a8c78e-a5ca-4be9-abaf-ca5dc1345472")
 	)
 	(wire
 		(pts
@@ -1222,26 +905,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 82.55 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "584c2f5c-6fc9-4ace-9b96-05c4fbf5429a")
-	)
-	(wire
-		(pts
-			(xy 82.55 62.23) (xy 82.55 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682b1940-6c21-4cbf-89b1-d14d38a56ab7")
-	)
-	(wire
-		(pts
 			(xy 69.85 48.26) (xy 69.85 53.34)
 		)
 		(stroke
@@ -1262,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 82.55 48.26)
+			(xy 69.85 48.26) (xy 93.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1289,16 +952,6 @@
 			(type default)
 		)
 		(uuid "9650cb16-103f-4930-8a7a-c04ccdfbb067")
-	)
-	(wire
-		(pts
-			(xy 82.55 48.26) (xy 93.98 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b49e61-0665-4b38-9910-964e896e1e9b")
 	)
 	(wire
 		(pts
@@ -1376,7 +1029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±20% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -1385,7 +1038,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MOCLRNC"
+		(property "MPN" "CL21A226MAYNNNE"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -1421,7 +1074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C398815"
+		(property "LCSC" "C602037"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -1642,122 +1295,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AP7361C-33E")
-		(at 144.78 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c1dd55b-dbc2-416f-bffc-7074485bf8d1")
-		(property "Reference" "U4"
-			(at 144.78 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7361C-33E"
-			(at 144.78 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 144.78 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AP7361C-33E-13"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7361C-33E-13/5638317"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aa1aeade-07f4-41ef-9e74-d4fb7bcad231")
-		)
-		(pin "3"
-			(uuid "c819032a-06b8-453a-95df-faa91561b1f8")
-		)
-		(pin "1"
-			(uuid "5caa145e-e132-4e0e-b7f5-7ea399313ecf")
-		)
-		(instances
-			(project ""
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 63.5 0)
 		(unit 1)
@@ -1917,7 +1454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -1935,7 +1472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -1944,7 +1481,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A106KOQNNNG"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -1980,7 +1517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307520"
+		(property "LCSC" "C96446"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -2137,402 +1674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "954883d2-a85f-49e4-a520-44277186c6d7")
-		(property "Reference" "#PWR068"
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fda74f7-153c-496a-9230-cec3d2359b44")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98aabae8-8240-4988-a462-1c6ca8479e93")
-		(property "Reference" "C27"
-			(at 163.83 54.6162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 163.83 57.1562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A106KOQNNNG"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307520"
-			(at 161.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57f15932-806a-4564-84cb-e161a0465724")
-		)
-		(pin "1"
-			(uuid "d52c72e9-ddd8-4379-b709-34635267e934")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 82.55 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b4d6ac8-1410-4e89-a536-0e342a4515b0")
-		(property "Reference" "D4"
-			(at 86.36 58.7374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 86.36 61.2774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/858/LTST-C190GKT.pdf"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green 569nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LTST-C190GKT"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On Inc."
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C125093"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6471cc3d-e4b7-411a-aae9-98f9b62edd15")
-		)
-		(pin "2"
-			(uuid "58b5320b-67bd-4619-9b1a-3fb319688228")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 82.55 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a57a7a32-fb44-4f54-a5f2-35d008381dc3")
-		(property "Reference" "R7"
-			(at 86.868 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 84.836 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "470 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07470RL/726791"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603JR-07470RL"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e5919e9-22f1-4dfb-bf39-69840d8cacbf")
-		)
-		(pin "2"
-			(uuid "38363edf-5294-41cf-864f-333d8e678856")
-		)
-		(instances
-			(project "PCB"
-				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AZ1117-5.0")
 		(at 57.15 48.26 0)
 		(unit 1)
@@ -2622,7 +1763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C108496"
 			(at 57.15 48.26 0)
 			(effects
 				(font
@@ -2676,7 +1817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2694,7 +1835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2703,7 +1844,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A106KOQNNNG"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2739,7 +1880,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307520"
+		(property "LCSC" "C96446"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2757,6 +1898,236 @@
 			(project "PCB"
 				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb9b7e3c-6428-4a69-9490-5751769c3136")
+		(property "Reference" "C50"
+			(at 163.83 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 163.83 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A226MAYNNNE"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MOCLRNC/5961264"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C602037"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1e5ddcf-ee78-4461-b483-de8f70f73665")
+		)
+		(pin "1"
+			(uuid "4171e7aa-98cc-4020-a4a1-00cf2b592ec6")
+		)
+		(instances
+			(project "PCB"
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AZ1117-3.3")
+		(at 144.78 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd4e1248-c285-4ac5-908a-86885727eec1")
+		(property "Reference" "U12"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117-3.3"
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "70dB@(120Hz) 800mA Fixed 3.3V Positive electrode 15V SOT-223-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AZ1117CH-3.3TRG1"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92102"
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "806f28cd-2ee6-439d-bc7a-9944950edfeb")
+		)
+		(pin "2"
+			(uuid "69afc268-d8d7-4c2b-b227-369aa9007b2e")
+		)
+		(pin "3"
+			(uuid "bce8a63d-5ead-4ae5-8cb8-5f8f37f1bbae")
+		)
+		(instances
+			(project ""
+				(path "/c3756407-a933-418d-a16a-ea4e5b091ef7/7b0e6515-d50f-4bfe-893f-003a03c2261d"
+					(reference "U12")
 					(unit 1)
 				)
 			)
