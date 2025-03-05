@@ -391,6 +391,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10dbcaa2-537c-4eec-9b71-bde24dce3694")
+	)
+	(wire
+		(pts
 			(xy 80.01 38.1) (xy 91.44 38.1)
 		)
 		(stroke
@@ -468,6 +478,16 @@
 			(type default)
 		)
 		(uuid "337a71c0-c34d-4b61-bb50-0e118b1cce97")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361088a0-077d-4553-8f05-4309839a2d60")
 	)
 	(wire
 		(pts
@@ -551,6 +571,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528726f2-8985-4106-b400-897507b75951")
+	)
+	(wire
+		(pts
 			(xy 58.42 96.52) (xy 62.23 96.52)
 		)
 		(stroke
@@ -558,6 +588,16 @@
 			(type default)
 		)
 		(uuid "54c232f4-3ae0-4715-b672-2e3765b8b486")
+	)
+	(wire
+		(pts
+			(xy 123.19 77.47) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5903f1fa-bb35-4d0d-8848-003627bfd1ab")
 	)
 	(wire
 		(pts
@@ -949,6 +989,16 @@
 		)
 		(uuid "fadc20bd-4df0-4312-a0e5-e3f0998c912c")
 	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd59691a-fe02-4ed5-9469-5a289666628e")
+	)
 	(label "GPIO9"
 		(at 62.23 106.68 0)
 		(effects
@@ -1213,6 +1263,18 @@
 		)
 		(uuid "55943878-f4e9-46fa-b2c2-db08444777d5")
 	)
+	(label "GPIO46"
+		(at 123.19 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b61af3c-965f-42a6-8c76-032c13223b40")
+	)
 	(label "DISP-BACKLIGHT"
 		(at 123.19 138.43 180)
 		(effects
@@ -1260,6 +1322,18 @@
 			(justify left bottom)
 		)
 		(uuid "79e8932a-ab31-4146-b24d-b2fb9415d6fb")
+	)
+	(label "GPIO14"
+		(at 123.19 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bca3891-f2c0-4238-be4f-3121658b702f")
 	)
 	(label "SOLENOID_1"
 		(at 62.23 154.94 0)
@@ -1321,6 +1395,18 @@
 		)
 		(uuid "8abf557e-68b4-4999-9c54-6aa7ff39448c")
 	)
+	(label "GPIO9"
+		(at 123.19 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b640a64-2bfd-477d-9600-753bf120dd47")
+	)
 	(label "PUMP-IN1"
 		(at 191.77 64.77 180)
 		(effects
@@ -1332,6 +1418,18 @@
 			(justify right bottom)
 		)
 		(uuid "8bf4529d-7f64-49e5-8ca1-68e95842c172")
+	)
+	(label "GPIO21"
+		(at 123.19 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cab6cf2-acfd-40a9-a22f-cffc4e3b1c04")
 	)
 	(label "I2C-SDA"
 		(at 87.63 53.34 180)
@@ -1380,6 +1478,18 @@
 			(justify left bottom)
 		)
 		(uuid "9dac192c-7678-4c75-9a94-04db5d999c35")
+	)
+	(label "GPIO10"
+		(at 123.19 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dd7848e-6912-42d1-b272-fb2413fda315")
 	)
 	(label "VAC-IN2"
 		(at 193.04 35.56 180)
@@ -2585,8 +2695,8 @@
 		)
 	)
 	(sheet
-		(at 128.905 64.77)
-		(size 15.875 27.94)
+		(at 128.27 64.77)
+		(size 16.51 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2601,7 +2711,7 @@
 		)
 		(uuid "61701680-fda0-4967-8dfa-16cb06fdf2c2")
 		(property "Sheetname" "sensors"
-			(at 128.905 64.0584 0)
+			(at 128.27 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2720,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 128.905 93.2946 0)
+			(at 128.27 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2730,7 @@
 			)
 		)
 		(pin "DOUT" input
-			(at 128.905 69.85 180)
+			(at 128.27 69.85 180)
 			(uuid "b50e9a46-b0fe-427f-afc0-827b4dfff2e1")
 			(effects
 				(font
@@ -2630,7 +2740,7 @@
 			)
 		)
 		(pin "INPUT_MUX" input
-			(at 128.905 73.66 180)
+			(at 128.27 73.66 180)
 			(uuid "52422866-7a50-428e-a283-09c2ec0f6e0f")
 			(effects
 				(font
@@ -2640,7 +2750,7 @@
 			)
 		)
 		(pin "PWDN" input
-			(at 128.905 77.47 180)
+			(at 128.27 77.47 180)
 			(uuid "31d82344-9eb3-41c9-bdf2-488a6d2a5dfc")
 			(effects
 				(font
@@ -2650,7 +2760,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 128.905 81.28 180)
+			(at 128.27 81.28 180)
 			(uuid "04b21448-ae7d-4321-b311-73b136c889cf")
 			(effects
 				(font
@@ -2660,7 +2770,7 @@
 			)
 		)
 		(pin "SPEED" input
-			(at 128.905 85.09 180)
+			(at 128.27 85.09 180)
 			(uuid "7c9c4ef9-b90f-4328-bdf5-4f3ecc1ee0a1")
 			(effects
 				(font
